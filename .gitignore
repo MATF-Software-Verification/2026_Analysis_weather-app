@@ -1,0 +1,40 @@
+# Qt build artifacts
+*.pro.user
+*.user
+
+# CMake build folders
+build/
+CMakeFiles/
+Makefile
+cmake_install.cmake
+CMakeCache.txt
+*.cbp
+*.cmake
+install_manifest.txt
+
+# Compiled files
+*.o
+*.obj
+*.exe
+*.dll
+*.pdb
+*.lib
+*.a
+*.so
+
+# IDE files
+.idea/
+.vscode/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+
+# Temporary files
+*~
+*.bak
+*.swp
+*.tmp
+
+# Other common ignores
+.DS_Store
+Thumbs.db
