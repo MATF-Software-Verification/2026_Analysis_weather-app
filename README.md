@@ -33,10 +33,10 @@ Repository: https://gitlab.com/matf-bg-ac-rs/course-rs/projects-2023-2024/weathe
 ![Empty main window](documentation/screenshots/main-window-empty.png)
 
 ### 2. Autocomplete suggestions when typing city name
-![Autocomplete suggestions](documentation/screenshots/main-window-autocomplete.png)
+![Autocomplete suggestions](documentation/screenshots/main-window-autocomplete-working.png)
 
 ### 3. Settings dialog and API authentication error in output
-![Settings dialog with API error](documentation/screenshots/settings-dialog-with-api-error.png)
+![Settings dialog with API error](documentation/screenshots/settings-with-api-auth-error-output.png)
 
 ## Next steps in analysis
 
