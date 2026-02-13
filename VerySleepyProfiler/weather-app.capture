@@ -1,0 +1,866 @@
+# callgrind format
+event: t : Microseconds Spent Total
+event: ps : Microseconds Spent Per Second
+events: t ps
+cmd: C:\Users\Aleksandra\Desktop\MATF_Projekat\2026_Analysis_weather-app\weather-app\Source\build\Desktop_Qt_6_10_2_MSVC2022_64bit-Debug\weather-app.exe
+desc: Fri Feb 13 18:55:40 2026
+
+ob=(1) weather-app
+fl=(1) C:/Users/Aleksandra/Desktop/MATF_Projekat/2026_Analysis_weather-app/weather-app/Source/main.cpp
+fn=(1) main
+cob=(2) Qt6Widgetsd
+cfl=(2) [unknown]
+cfn=(2) QLineEdit::`default constructor closure'
+calls=154 0
+9 3495221207 1000000
+
+ob=(1)
+fl=(3) D:/a/_work/1/s/src/vctools/crt/vcstartup/src/startup/exe_common.inl
+fn=(3) __scrt_common_main
+cob=(1)
+cfl=(3)
+cfn=(4) __scrt_common_main_seh
+calls=154 288
+331 3495221207 1000000
+
+ob=(1)
+fl=(3)
+fn=(4)
+cob=(1)
+cfl=(3)
+cfn=(5) invoke_main
+calls=154 107
+288 3495221207 1000000
+
+ob=(1)
+fl=(3)
+fn=(5)
+cob=(1)
+cfl=(4) C:/Users/qt/work/qt/qtbase/src/entrypoint/qtentrypoint_win.cpp
+cfn=(6) WinMain
+calls=154 64
+107 3495221207 1000000
+
+ob=(1)
+fl=(5) D:/a/_work/1/s/src/vctools/crt/vcstartup/src/startup/exe_winmain.cpp
+fn=(7) WinMainCRTStartup
+cob=(1)
+cfl=(3)
+cfn=(3)
+calls=154 331
+17 3495221207 1000000
+
+ob=(1)
+fl=(4)
+fn=(6)
+cob=(1)
+cfl=(4)
+cfn=(8) qtEntryPoint
+calls=154 45
+64 3495221207 1000000
+
+ob=(1)
+fl=(4)
+fn=(8)
+cob=(1)
+cfl=(1)
+cfn=(1)
+calls=154 9
+45 3495221207 1000000
+
+ob=(3) VCRUNTIME140D
+fl=(2)
+fn=(9) memmove
+0 4993 1
+
+ob=(4) mswsock
+fl=(6) 
+fn=(10) [00007FF8116D10AB]
+cob=(5) ntdll
+cfl=(2)
+cfn=(11) NtRemoveIoCompletion
+calls=1 0
+0 384740000 110076
+
+ob=(6) powrprof
+fl=(2)
+fn=(12) CallNtPowerInformation
+cob=(7) USER32
+cfl=(2)
+cfn=(13) AreDpiAwarenessContextsEqual
+calls=1 0
+0 9042 3
+
+ob=(8) KERNELBASE
+fl=(2)
+fn=(14) WaitForSingleObjectEx
+0 10409900 2978
+
+ob=(8)
+fl=(2)
+fn=(15) WaitForMultipleObjectsEx
+0 99763500 28543
+
+ob=(9) win32u
+fl=(2)
+fn=(16) NtUserGetThreadState
+0 69655 20
+
+ob=(9)
+fl=(2)
+fn=(17) NtUserPeekMessage
+0 217280 62
+cob=(5)
+cfl=(2)
+cfn=(18) KiUserCallbackDispatcher
+calls=17 0
+0 153720 44
+
+ob=(9)
+fl=(2)
+fn=(19) NtUserGetKeyState
+0 14534 4
+
+ob=(9)
+fl=(2)
+fn=(20) NtUserMessageCall
+0 593053 170
+cob=(5)
+cfl=(2)
+cfn=(18)
+calls=15 0
+0 713944 204
+
+ob=(9)
+fl=(2)
+fn=(21) NtGdiBitBlt
+0 30976 9
+
+ob=(9)
+fl=(2)
+fn=(22) NtUserGetProp
+0 38001 11
+
+ob=(9)
+fl=(2)
+fn=(23) NtUserPostMessage
+0 31994 9
+
+ob=(9)
+fl=(2)
+fn=(24) NtUserBeginPaint
+0 24007 7
+
+ob=(9)
+fl=(2)
+fn=(25) NtUserSetTimer
+0 34552 10
+
+ob=(9)
+fl=(2)
+fn=(26) NtUserKillTimer
+0 67931 19
+
+ob=(9)
+fl=(2)
+fn=(27) NtUserCallTwoParam
+0 34948 10
+
+ob=(9)
+fl=(2)
+fn=(28) NtUserDispatchMessage
+0 4999 1
+cob=(5)
+cfl=(2)
+cfn=(18)
+calls=4 0
+0 58134 17
+
+ob=(9)
+fl=(2)
+fn=(29) NtUserGetForegroundWindow
+0 11020 3
+
+ob=(9)
+fl=(2)
+fn=(30) NtUserIsChildWindowDpiMessageEnabled
+0 11098 3
+
+ob=(9)
+fl=(2)
+fn=(31) NtUserMsgWaitForMultipleObjectsEx
+0 6988535232 1999455
+
+ob=(10) gdi32full
+fl=(2)
+fn=(32) BitBlt
+cob=(9)
+cfl=(2)
+cfn=(21)
+calls=2 0
+0 30976 9
+
+ob=(11) MSCTF
+fl=(2)
+fn=(33) CtfImeAssociateFocus
+cob=(9)
+cfl=(2)
+cfn=(16)
+calls=1 0
+0 5989 2
+
+ob=(11)
+fl=(2)
+fn=(34) TF_Notify
+cob=(11)
+cfl=(2)
+cfn=(35) TF_CreateLangBarMgr
+calls=1 0
+0 5989 2
+cob=(11)
+cfl=(2)
+cfn=(34)
+calls=2 0
+0 11978 3
+
+ob=(11)
+fl=(2)
+fn=(36) TF_CreateCicLoadWinStaMutex
+cob=(11)
+cfl=(2)
+cfn=(34)
+calls=1 0
+0 5989 2
+
+ob=(11)
+fl=(2)
+fn=(37) TF_GetInputScope
+cob=(11)
+cfl=(2)
+cfn=(33)
+calls=1 0
+0 5989 2
+
+ob=(11)
+fl=(2)
+fn=(35)
+cob=(12) TextInputFramework
+cfl=(2)
+cfn=(38) TextInputServerCreate
+calls=1 0
+0 5989 2
+
+ob=(13) combase
+fl=(2)
+fn=(39) CoRevokeInitializeSpy
+cob=(8)
+cfl=(2)
+cfn=(15)
+calls=2 0
+0 99763500 28543
+cob=(13)
+cfl=(2)
+cfn=(39)
+calls=5 0
+0 239914800 68641
+
+ob=(7)
+fl=(2)
+fn=(40) TranslateMessage
+0 6981 2
+
+ob=(7)
+fl=(2)
+fn=(41) PeekMessageW
+0 371000 106
+
+ob=(7)
+fl=(2)
+fn=(42) GetWindowTextW
+0 1347055 385
+
+ob=(7)
+fl=(2)
+fn=(43) DispatchMessageW
+0 822186 235
+cob=(9)
+cfl=(2)
+cfn=(28)
+calls=5 0
+0 63133 18
+
+ob=(7)
+fl=(2)
+fn=(44) GetKeyState
+cob=(9)
+cfl=(2)
+cfn=(19)
+calls=3 0
+0 14534 4
+
+ob=(7)
+fl=(2)
+fn=(45) MsgWaitForMultipleObjectsEx
+cob=(9)
+cfl=(2)
+cfn=(31)
+calls=3 0
+0 6988535232 1999455
+
+ob=(7)
+fl=(2)
+fn=(46) PostMessageW
+0 7043 2
+cob=(9)
+cfl=(2)
+cfn=(23)
+calls=3 0
+0 31994 9
+
+ob=(7)
+fl=(2)
+fn=(47) SetTimer
+cob=(9)
+cfl=(2)
+cfn=(25)
+calls=1 0
+0 14792 4
+
+ob=(7)
+fl=(2)
+fn=(13)
+0 9042 3
+
+ob=(14) GDI32
+fl=(2)
+fn=(32)
+cob=(10)
+cfl=(2)
+cfn=(32)
+calls=2 0
+0 30976 9
+
+ob=(5)
+fl=(2)
+fn=(11)
+0 384740000 110076
+
+ob=(5)
+fl=(2)
+fn=(18)
+0 925798 265
+
+ob=(15) Qt6Cored
+fl=(2)
+fn=(48) QString::startsWith
+0 4801 1
+
+ob=(15)
+fl=(2)
+fn=(49) QMetaContainer::QMetaContainer
+0 4014 1
+
+ob=(15)
+fl=(2)
+fn=(50) QVariant::QVariant
+0 5002 1
+
+ob=(15)
+fl=(2)
+fn=(51) QtPrivate::sizedFree
+0 5500 2
+
+ob=(15)
+fl=(2)
+fn=(52) QString::sliced
+0 4768 1
+
+ob=(15)
+fl=(2)
+fn=(53) QThread::currentThread
+0 4979 1
+
+ob=(15)
+fl=(2)
+fn=(54) QMetaObject::className
+0 5194 1
+
+ob=(15)
+fl=(2)
+fn=(55) QObjectPrivate::get
+0 5002 1
+
+ob=(15)
+fl=(2)
+fn=(56) QFileInfo::filePath
+0 191934 55
+cob=(16) ucrtbased
+cfl=(2)
+cfn=(57) free
+calls=1 0
+0 4991 1
+cob=(16)
+cfl=(2)
+cfn=(58) malloc
+calls=3 0
+0 19069 5
+cob=(7)
+cfl=(2)
+cfn=(46)
+calls=4 0
+0 39037 11
+cob=(8)
+cfl=(2)
+cfn=(14)
+calls=1 0
+0 10409900 2978
+cob=(9)
+cfl=(2)
+cfn=(26)
+calls=3 0
+0 67931 19
+cob=(7)
+cfl=(2)
+cfn=(47)
+calls=1 0
+0 14792 4
+cob=(7)
+cfl=(2)
+cfn=(41)
+calls=18 0
+0 371000 106
+cob=(9)
+cfl=(2)
+cfn=(25)
+calls=2 0
+0 19760 6
+cob=(7)
+cfl=(2)
+cfn=(40)
+calls=1 0
+0 6981 2
+cob=(7)
+cfl=(2)
+cfn=(43)
+calls=35 0
+0 885320 253
+cob=(7)
+cfl=(2)
+cfn=(45)
+calls=3 0
+0 6988535232 1999455
+cob=(15)
+cfl=(2)
+cfn=(52)
+calls=1 0
+0 4768 1
+cob=(15)
+cfl=(2)
+cfn=(55)
+calls=1 0
+0 5002 1
+cob=(15)
+cfl=(2)
+cfn=(50)
+calls=1 0
+0 5002 1
+cob=(15)
+cfl=(2)
+cfn=(48)
+calls=1 0
+0 4801 1
+cob=(15)
+cfl=(2)
+cfn=(51)
+calls=1 0
+0 5500 2
+cob=(15)
+cfl=(2)
+cfn=(49)
+calls=1 0
+0 4014 1
+cob=(17) Qt6Networkd
+cfl=(2)
+cfn=(59) QNetworkInterface::interfaceNameFromIndex
+calls=2 0
+0 9649 3
+cob=(2)
+cfl=(2)
+cfn=(2)
+calls=149 0
+0 891127 255
+cob=(18) Qt6Guid
+cfl=(2)
+cfn=(60) QTextCharFormat::setFontLetterSpacingType
+calls=250 0
+0 3495832779 1000175
+cob=(15)
+cfl=(2)
+cfn=(56)
+calls=660 0
+0 24499903893 7009546
+
+ob=(18)
+fl=(2)
+fn=(61) QCss::Parser::testClass
+0 5524 2
+
+ob=(18)
+fl=(2)
+fn=(62) QInputEvent::~QInputEvent
+0 6164 2
+
+ob=(18)
+fl=(2)
+fn=(63) QWindow::d_func
+0 4980 1
+
+ob=(18)
+fl=(2)
+fn=(64) QWindow::isTopLevel
+0 7047 2
+
+ob=(18)
+fl=(2)
+fn=(65) QDistanceField::QDistanceField
+0 4892 1
+
+ob=(18)
+fl=(2)
+fn=(66) QWindow::windowStateChanged
+0 4929 1
+
+ob=(18)
+fl=(2)
+fn=(67) QOpenGLConfig::Gpu::equals
+0 4849 1
+
+ob=(18)
+fl=(2)
+fn=(68) QTextList::tr
+0 5943 2
+
+ob=(18)
+fl=(2)
+fn=(69) QBrush::~QBrush
+0 10195 3
+
+ob=(18)
+fl=(2)
+fn=(70) QInternalMimeData::tr
+0 5951 2
+
+ob=(18)
+fl=(2)
+fn=(71) QHighDpiScaling::isActive
+0 5039 1
+
+ob=(18)
+fl=(2)
+fn=(60)
+0 139973 40
+cob=(16)
+cfl=(2)
+cfn=(72) fabs
+calls=1 0
+0 5142 1
+cob=(3)
+cfl=(2)
+cfn=(9)
+calls=1 0
+0 4993 1
+cob=(18)
+cfl=(2)
+cfn=(65)
+calls=1 0
+0 4892 1
+cob=(18)
+cfl=(2)
+cfn=(67)
+calls=1 0
+0 4849 1
+cob=(18)
+cfl=(2)
+cfn=(66)
+calls=1 0
+0 4929 1
+cob=(2)
+cfl=(2)
+cfn=(2)
+calls=3 0
+0 17824 5
+cob=(18)
+cfl=(2)
+cfn=(71)
+calls=1 0
+0 5039 1
+cob=(18)
+cfl=(2)
+cfn=(61)
+calls=1 0
+0 5524 2
+cob=(18)
+cfl=(2)
+cfn=(60)
+calls=524 0
+0 3070391 878
+cob=(18)
+cfl=(2)
+cfn=(62)
+calls=1 0
+0 6164 2
+cob=(18)
+cfl=(2)
+cfn=(68)
+calls=1 0
+0 5943 2
+cob=(19) qwindowsd
+cfl=(2)
+cfn=(73) qt_plugin_instance
+calls=5 0
+0 43997 13
+cob=(15)
+cfl=(2)
+cfn=(56)
+calls=413 0
+0 6991132567 2000198
+cob=(18)
+cfl=(2)
+cfn=(63)
+calls=1 0
+0 4980 1
+cob=(18)
+cfl=(2)
+cfn=(70)
+calls=1 0
+0 5951 2
+
+ob=(17)
+fl=(2)
+fn=(59)
+cob=(20) qopensslbackendd
+cfl=(2)
+cfn=(73)
+calls=1 0
+0 4824 1
+cob=(17)
+cfl=(2)
+cfn=(59)
+calls=8 0
+0 38594 11
+cob=(15)
+cfl=(2)
+cfn=(56)
+calls=1 0
+0 4824 1
+
+ob=(19)
+fl=(2)
+fn=(74) qt_plugin_query_metadata_v2
+0 4785 1
+
+ob=(19)
+fl=(2)
+fn=(73)
+0 42639 12
+cob=(9)
+cfl=(2)
+cfn=(29)
+calls=1 0
+0 11020 3
+cob=(9)
+cfl=(2)
+cfn=(27)
+calls=2 0
+0 34948 10
+cob=(7)
+cfl=(2)
+cfn=(44)
+calls=3 0
+0 14534 4
+cob=(9)
+cfl=(2)
+cfn=(24)
+calls=1 0
+0 24007 7
+cob=(7)
+cfl=(2)
+cfn=(42)
+calls=18 0
+0 1347055 385
+cob=(9)
+cfl=(2)
+cfn=(16)
+calls=4 0
+0 63666 18
+cob=(14)
+cfl=(2)
+cfn=(32)
+calls=2 0
+0 30976 9
+cob=(18)
+cfl=(2)
+cfn=(64)
+calls=1 0
+0 7047 2
+cob=(18)
+cfl=(2)
+cfn=(60)
+calls=18 0
+0 130308 37
+cob=(19)
+cfl=(2)
+cfn=(73)
+calls=80 0
+0 683105 195
+cob=(15)
+cfl=(2)
+cfn=(56)
+calls=1 0
+0 6085 2
+cob=(19)
+cfl=(2)
+cfn=(74)
+calls=1 0
+0 4785 1
+
+ob=(2)
+fl=(2)
+fn=(75) QAbstractItemDelegate::qt_metacast
+0 4997 1
+
+ob=(2)
+fl=(2)
+fn=(76) QGraphicsItem::mapFromItem
+0 6970 2
+
+ob=(2)
+fl=(2)
+fn=(77) QGraphicsItem::update
+0 6127 2
+
+ob=(2)
+fl=(2)
+fn=(2)
+0 165527 47
+cob=(21) qmodernwindowsstyled
+cfl=(2)
+cfn=(73)
+calls=4 0
+0 33891 10
+cob=(15)
+cfl=(2)
+cfn=(53)
+calls=1 0
+0 4979 1
+cob=(15)
+cfl=(2)
+cfn=(54)
+calls=1 0
+0 5194 1
+cob=(2)
+cfl=(2)
+cfn=(76)
+calls=1 0
+0 6970 2
+cob=(2)
+cfl=(2)
+cfn=(2)
+calls=772 0
+0 4788992 1370
+cob=(2)
+cfl=(2)
+cfn=(75)
+calls=1 0
+0 4997 1
+cob=(18)
+cfl=(2)
+cfn=(60)
+calls=187 0
+0 3495412735 1000055
+cob=(15)
+cfl=(2)
+cfn=(56)
+calls=82 0
+0 496488 142
+cob=(18)
+cfl=(2)
+cfn=(69)
+calls=1 0
+0 10195 3
+cob=(2)
+cfl=(2)
+cfn=(77)
+calls=1 0
+0 6127 2
+
+ob=(16)
+fl=(2)
+fn=(57)
+0 4991 1
+
+ob=(16)
+fl=(2)
+fn=(58)
+0 19069 5
+
+ob=(16)
+fl=(2)
+fn=(72)
+0 5142 1
+
+ob=(22) libcrypto-3-x64
+fl=(2)
+fn=(78) X509at_get_attr_by_OBJ
+0 4824 1
+
+ob=(20)
+fl=(2)
+fn=(73)
+cob=(20)
+cfl=(2)
+cfn=(73)
+calls=5 0
+0 24121 7
+cob=(23) libssl-3-x64
+cfl=(2)
+cfn=(79) SSL_sendfile
+calls=1 0
+0 4824 1
+
+ob=(23)
+fl=(2)
+fn=(79)
+cob=(22)
+cfl=(2)
+cfn=(78)
+calls=1 0
+0 4824 1
+cob=(23)
+cfl=(2)
+cfn=(79)
+calls=1 0
+0 4824 1
+
+ob=(21)
+fl=(2)
+fn=(73)
+cob=(2)
+cfl=(2)
+cfn=(2)
+calls=2 0
+0 16946 5
+cob=(18)
+cfl=(2)
+cfn=(60)
+calls=2 0
+0 16946 5
+
+ob=(12)
+fl=(2)
+fn=(38)
+cob=(11)
+cfl=(2)
+cfn=(37)
+calls=1 0
+0 5989 2
