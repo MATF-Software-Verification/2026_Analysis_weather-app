@@ -1,0 +1,1533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.19.0"/>
+    <errors>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If slots is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If slots is a macro then please configure it." file0="../weather-app/Source/Api/ApiHandler.cpp">
+            <location file="../weather-app/Source/Api/ApiHandler.h" line="20" column="11"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;GeoLocationData.h&quot; not found." verbose="Include file: &quot;GeoLocationData.h&quot; not found.">
+            <location file="../weather-app/Source/Api/DetailedWeatherAPI.h" line="11" column="2"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;DetailedWeatherData.h&quot; not found." verbose="Include file: &quot;DetailedWeatherData.h&quot; not found.">
+            <location file="../weather-app/Source/Api/DetailedWeatherAPI.cpp" line="13" column="2"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;Settings.h&quot; not found." verbose="Include file: &quot;Settings.h&quot; not found.">
+            <location file="../weather-app/Source/Api/DetailedWeatherAPI.cpp" line="16" column="2"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;GeoLocationData.h&quot; not found." verbose="Include file: &quot;GeoLocationData.h&quot; not found.">
+            <location file="../weather-app/Source/Api/GeocodingAPI.h" line="12" column="2"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;WeatherData.h&quot; not found." verbose="Include file: &quot;WeatherData.h&quot; not found.">
+            <location file="../weather-app/Source/Api/Parser.cpp" line="7" column="2"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;DetailedWeatherData.h&quot; not found." verbose="Include file: &quot;DetailedWeatherData.h&quot; not found.">
+            <location file="../weather-app/Source/Api/Parser.cpp" line="8" column="2"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;GeoLocationData.h&quot; not found." verbose="Include file: &quot;GeoLocationData.h&quot; not found.">
+            <location file="../weather-app/Source/Api/Parser.cpp" line="9" column="2"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;GeoLocationData.h&quot; not found." verbose="Include file: &quot;GeoLocationData.h&quot; not found.">
+            <location file="../weather-app/Source/Api/WeatherAPI.h" line="9" column="2"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;WeatherData.h&quot; not found." verbose="Include file: &quot;WeatherData.h&quot; not found.">
+            <location file="../weather-app/Source/Api/WeatherAPI.cpp" line="11" column="2"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;GeoLocationData.h&quot; not found." verbose="Include file: &quot;GeoLocationData.h&quot; not found.">
+            <location file="../weather-app/Source/Api/WeatherAPI.cpp" line="12" column="2"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;Settings.h&quot; not found." verbose="Include file: &quot;Settings.h&quot; not found.">
+            <location file="../weather-app/Source/Api/WeatherAPI.cpp" line="14" column="2"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;Serializable.h&quot; not found." verbose="Include file: &quot;Serializable.h&quot; not found.">
+            <location file="../weather-app/Source/Data/GeoLocationData.h" line="5" column="2"/>
+        </error>
+        <error id="duplInheritedMember" severity="warning" msg="The class &apos;DetailedWeatherData&apos; defines member function with name &apos;location&apos; also defined in its parent class &apos;WeatherData&apos;." verbose="The class &apos;DetailedWeatherData&apos; defines member function with name &apos;location&apos; also defined in its parent class &apos;WeatherData&apos;." cwe="398" file0="../weather-app/Source/Data/DetailedWeatherData.cpp">
+            <location file="../weather-app/Source/Data/DetailedWeatherData.h" line="39" column="28" info="Derived function &apos;DetailedWeatherData::location&apos;"/>
+            <location file="../weather-app/Source/Data/WeatherData.h" line="22" column="28" info="Parent function &apos;WeatherData::location&apos;"/>
+            <symbol>DetailedWeatherData</symbol>
+            <symbol>location</symbol>
+            <symbol>WeatherData</symbol>
+        </error>
+        <error id="duplInheritedMember" severity="warning" msg="The class &apos;DetailedWeatherData&apos; defines member function with name &apos;temperature&apos; also defined in its parent class &apos;WeatherData&apos;." verbose="The class &apos;DetailedWeatherData&apos; defines member function with name &apos;temperature&apos; also defined in its parent class &apos;WeatherData&apos;." cwe="398" file0="../weather-app/Source/Data/DetailedWeatherData.cpp">
+            <location file="../weather-app/Source/Data/DetailedWeatherData.h" line="43" column="16" info="Derived function &apos;DetailedWeatherData::temperature&apos;"/>
+            <location file="../weather-app/Source/Data/WeatherData.h" line="27" column="16" info="Parent function &apos;WeatherData::temperature&apos;"/>
+            <symbol>DetailedWeatherData</symbol>
+            <symbol>temperature</symbol>
+            <symbol>WeatherData</symbol>
+        </error>
+        <error id="duplInheritedMember" severity="warning" msg="The class &apos;DetailedWeatherData&apos; defines member function with name &apos;weatherCode&apos; also defined in its parent class &apos;WeatherData&apos;." verbose="The class &apos;DetailedWeatherData&apos; defines member function with name &apos;weatherCode&apos; also defined in its parent class &apos;WeatherData&apos;." cwe="398" file0="../weather-app/Source/Data/DetailedWeatherData.cpp">
+            <location file="../weather-app/Source/Data/DetailedWeatherData.h" line="47" column="16" info="Derived function &apos;DetailedWeatherData::weatherCode&apos;"/>
+            <location file="../weather-app/Source/Data/WeatherData.h" line="42" column="16" info="Parent function &apos;WeatherData::weatherCode&apos;"/>
+            <symbol>DetailedWeatherData</symbol>
+            <symbol>weatherCode</symbol>
+            <symbol>WeatherData</symbol>
+        </error>
+        <error id="duplInheritedMember" severity="warning" msg="The class &apos;DetailedWeatherData&apos; defines member function with name &apos;isDay&apos; also defined in its parent class &apos;WeatherData&apos;." verbose="The class &apos;DetailedWeatherData&apos; defines member function with name &apos;isDay&apos; also defined in its parent class &apos;WeatherData&apos;." cwe="398" file0="../weather-app/Source/Data/DetailedWeatherData.cpp">
+            <location file="../weather-app/Source/Data/DetailedWeatherData.h" line="51" column="17" info="Derived function &apos;DetailedWeatherData::isDay&apos;"/>
+            <location file="../weather-app/Source/Data/WeatherData.h" line="47" column="17" info="Parent function &apos;WeatherData::isDay&apos;"/>
+            <symbol>DetailedWeatherData</symbol>
+            <symbol>isDay</symbol>
+            <symbol>WeatherData</symbol>
+        </error>
+        <error id="duplInheritedMember" severity="warning" msg="The class &apos;DetailedWeatherData&apos; defines member function with name &apos;timezone&apos; also defined in its parent class &apos;WeatherData&apos;." verbose="The class &apos;DetailedWeatherData&apos; defines member function with name &apos;timezone&apos; also defined in its parent class &apos;WeatherData&apos;." cwe="398" file0="../weather-app/Source/Data/DetailedWeatherData.cpp">
+            <location file="../weather-app/Source/Data/DetailedWeatherData.h" line="55" column="22" info="Derived function &apos;DetailedWeatherData::timezone&apos;"/>
+            <location file="../weather-app/Source/Data/WeatherData.h" line="52" column="22" info="Parent function &apos;WeatherData::timezone&apos;"/>
+            <symbol>DetailedWeatherData</symbol>
+            <symbol>timezone</symbol>
+            <symbol>WeatherData</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The destructor &apos;~GeoLocationData&apos; overrides a destructor in a base class but is not marked with a &apos;override&apos; specifier." verbose="The destructor &apos;~GeoLocationData&apos; overrides a destructor in a base class but is not marked with a &apos;override&apos; specifier." file0="../weather-app/Source/Data/DetailedWeatherData.cpp">
+            <location file="../weather-app/Source/Data/GeoLocationData.h" line="13" column="6" info="Destructor in derived class"/>
+            <location file="../weather-app/Source/Data/Data.h" line="12" column="14" info="Virtual destructor in base class"/>
+            <symbol>~GeoLocationData</symbol>
+        </error>
+        <error id="constParameterReference" severity="style" msg="Parameter &apos;renamedPlace&apos; can be declared as reference to const" verbose="Parameter &apos;renamedPlace&apos; can be declared as reference to const" cwe="398" file0="../weather-app/Source/Data/DetailedWeatherData.cpp">
+            <location file="../weather-app/Source/Data/GeoLocationData.h" line="34" column="42" info="Parameter &apos;renamedPlace&apos; can be declared as reference to const"/>
+            <symbol>renamedPlace</symbol>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If Q_DECLARE_METATYPE is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If Q_DECLARE_METATYPE is a macro then please configure it." file0="../weather-app/Source/Data/GeoLocationData.cpp">
+            <location file="../weather-app/Source/Data/GeoLocationData.h" line="51" column="1"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;./ui_MainWindow.h&quot; not found." verbose="Include file: &quot;./ui_MainWindow.h&quot; not found.">
+            <location file="../weather-app/Source/MainWindow.cpp" line="2" column="2"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;ApiHandler.h&quot; not found." verbose="Include file: &quot;ApiHandler.h&quot; not found.">
+            <location file="../weather-app/Source/MainWindow.cpp" line="7" column="2"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;WeatherAPI.h&quot; not found." verbose="Include file: &quot;WeatherAPI.h&quot; not found.">
+            <location file="../weather-app/Source/MainWindow.cpp" line="8" column="2"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;WeatherData.h&quot; not found." verbose="Include file: &quot;WeatherData.h&quot; not found.">
+            <location file="../weather-app/Source/MainWindow.cpp" line="9" column="2"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;WeatherWidget.h&quot; not found." verbose="Include file: &quot;WeatherWidget.h&quot; not found.">
+            <location file="../weather-app/Source/MainWindow.cpp" line="10" column="2"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;HomePage.h&quot; not found." verbose="Include file: &quot;HomePage.h&quot; not found.">
+            <location file="../weather-app/Source/MainWindow.cpp" line="11" column="2"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;DetailedWeatherPage.h&quot; not found." verbose="Include file: &quot;DetailedWeatherPage.h&quot; not found.">
+            <location file="../weather-app/Source/MainWindow.cpp" line="12" column="2"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;ErrorPage.h&quot; not found." verbose="Include file: &quot;ErrorPage.h&quot; not found.">
+            <location file="../weather-app/Source/MainWindow.cpp" line="13" column="2"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;GeocodingAPI.h&quot; not found." verbose="Include file: &quot;GeocodingAPI.h&quot; not found.">
+            <location file="../weather-app/Source/MainWindow.cpp" line="14" column="2"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;UserLocation.h&quot; not found." verbose="Include file: &quot;UserLocation.h&quot; not found.">
+            <location file="../weather-app/Source/MainWindow.cpp" line="15" column="2"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;Settings.h&quot; not found." verbose="Include file: &quot;Settings.h&quot; not found.">
+            <location file="../weather-app/Source/MainWindow.cpp" line="16" column="2"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;GeoLocationData.h&quot; not found." verbose="Include file: &quot;GeoLocationData.h&quot; not found.">
+            <location file="../weather-app/Source/MainWindow.cpp" line="17" column="2"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;Serializer.h&quot; not found." verbose="Include file: &quot;Serializer.h&quot; not found.">
+            <location file="../weather-app/Source/MainWindow.cpp" line="18" column="2"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If QT_BEGIN_NAMESPACE is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If QT_BEGIN_NAMESPACE is a macro then please configure it." file0="../weather-app/Source/MainWindow.cpp">
+            <location file="../weather-app/Source/MainWindow.h" line="20" column="1"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CustomCompleter&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CustomCompleter&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="../weather-app/Source/Pages/CustomCompleter.cpp">
+            <location file="../weather-app/Source/Pages/CustomCompleter.h" line="10" column="5"/>
+            <symbol>CustomCompleter</symbol>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;GeoLocationData.h&quot; not found." verbose="Include file: &quot;GeoLocationData.h&quot; not found.">
+            <location file="../weather-app/Source/Pages/DetailedWeatherPage.h" line="18" column="2"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;DetailedPageWidgets.h&quot; not found." verbose="Include file: &quot;DetailedPageWidgets.h&quot; not found.">
+            <location file="../weather-app/Source/Pages/DetailedWeatherPage.h" line="19" column="2"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;DetailedWeatherAPI.h&quot; not found." verbose="Include file: &quot;DetailedWeatherAPI.h&quot; not found.">
+            <location file="../weather-app/Source/Pages/DetailedWeatherPage.h" line="20" column="2"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;MainWindow.h&quot; not found." verbose="Include file: &quot;MainWindow.h&quot; not found.">
+            <location file="../weather-app/Source/Pages/DetailedWeatherPage.cpp" line="3" column="2"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;WeatherData.h&quot; not found." verbose="Include file: &quot;WeatherData.h&quot; not found.">
+            <location file="../weather-app/Source/Pages/DetailedWeatherPage.cpp" line="4" column="2"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;ErrorWidget.h&quot; not found." verbose="Include file: &quot;ErrorWidget.h&quot; not found.">
+            <location file="../weather-app/Source/Pages/DetailedWeatherPage.cpp" line="5" column="2"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;WeatherWidget.h&quot; not found." verbose="Include file: &quot;WeatherWidget.h&quot; not found.">
+            <location file="../weather-app/Source/Pages/DetailedWeatherPage.cpp" line="6" column="2"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;GeoLocationData.h&quot; not found." verbose="Include file: &quot;GeoLocationData.h&quot; not found.">
+            <location file="../weather-app/Source/Pages/DetailedWeatherPage.cpp" line="7" column="2"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;Settings.h&quot; not found." verbose="Include file: &quot;Settings.h&quot; not found.">
+            <location file="../weather-app/Source/Pages/DetailedWeatherPage.cpp" line="8" column="2"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;DetailedWeatherData.h&quot; not found." verbose="Include file: &quot;DetailedWeatherData.h&quot; not found.">
+            <location file="../weather-app/Source/Pages/DetailedWeatherPage.cpp" line="9" column="2"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If slots is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If slots is a macro then please configure it." file0="../weather-app/Source/Pages/DetailedWeatherPage.cpp">
+            <location file="../weather-app/Source/Pages/Page.h" line="23" column="8"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;MainWindow.h&quot; not found." verbose="Include file: &quot;MainWindow.h&quot; not found.">
+            <location file="../weather-app/Source/Pages/ErrorPage.cpp" line="3" column="2"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;GeocodingAPI.h&quot; not found." verbose="Include file: &quot;GeocodingAPI.h&quot; not found.">
+            <location file="../weather-app/Source/Pages/HomePage.h" line="14" column="2"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;Settings.h&quot; not found." verbose="Include file: &quot;Settings.h&quot; not found.">
+            <location file="../weather-app/Source/Pages/HomePage.h" line="15" column="2"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;GeoLocationData.h&quot; not found." verbose="Include file: &quot;GeoLocationData.h&quot; not found.">
+            <location file="../weather-app/Source/Pages/HomePage.h" line="16" column="2"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;MainWindow.h&quot; not found." verbose="Include file: &quot;MainWindow.h&quot; not found.">
+            <location file="../weather-app/Source/Pages/HomePage.cpp" line="7" column="2"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;WeatherData.h&quot; not found." verbose="Include file: &quot;WeatherData.h&quot; not found.">
+            <location file="../weather-app/Source/Pages/HomePage.cpp" line="8" column="2"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;ErrorWidget.h&quot; not found." verbose="Include file: &quot;ErrorWidget.h&quot; not found.">
+            <location file="../weather-app/Source/Pages/HomePage.cpp" line="9" column="2"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;WeatherWidget.h&quot; not found." verbose="Include file: &quot;WeatherWidget.h&quot; not found.">
+            <location file="../weather-app/Source/Pages/HomePage.cpp" line="10" column="2"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;SettingsDialog.h&quot; not found." verbose="Include file: &quot;SettingsDialog.h&quot; not found.">
+            <location file="../weather-app/Source/Pages/HomePage.cpp" line="11" column="2"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;Settings.h&quot; not found." verbose="Include file: &quot;Settings.h&quot; not found.">
+            <location file="../weather-app/Source/Pages/HomePage.cpp" line="12" column="2"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;MainWindow.h&quot; not found." verbose="Include file: &quot;MainWindow.h&quot; not found.">
+            <location file="../weather-app/Source/Pages/Page.cpp" line="3" column="2"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;WeatherWidget.h&quot; not found." verbose="Include file: &quot;WeatherWidget.h&quot; not found.">
+            <location file="../weather-app/Source/Pages/Page.cpp" line="4" column="2"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;Serializable.h&quot; not found." verbose="Include file: &quot;Serializable.h&quot; not found.">
+            <location file="../weather-app/Source/Settings/Settings.h" line="9" column="2"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;GeoLocationData.h&quot; not found." verbose="Include file: &quot;GeoLocationData.h&quot; not found.">
+            <location file="../weather-app/Source/Settings/Settings.cpp" line="6" column="2"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;Serializer.h&quot; not found." verbose="Include file: &quot;Serializer.h&quot; not found.">
+            <location file="../weather-app/Source/Settings/Settings.cpp" line="7" column="2"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If Q_ENUM is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If Q_ENUM is a macro then please configure it." file0="../weather-app/Source/Settings/Settings.cpp">
+            <location file="../weather-app/Source/Settings/Settings.h" line="42" column="5"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;MainWindow.h&quot; not found." verbose="Include file: &quot;MainWindow.h&quot; not found.">
+            <location file="../weather-app/Source/Settings/SettingsDialog.cpp" line="9" column="2"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;HomePage.h&quot; not found." verbose="Include file: &quot;HomePage.h&quot; not found.">
+            <location file="../weather-app/Source/Settings/SettingsDialog.cpp" line="10" column="2"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;GeoLocationData.h&quot; not found." verbose="Include file: &quot;GeoLocationData.h&quot; not found.">
+            <location file="../weather-app/Source/Settings/SettingsDialog.cpp" line="12" column="2"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;Serializer.h&quot; not found." verbose="Include file: &quot;Serializer.h&quot; not found.">
+            <location file="../weather-app/Source/Settings/SettingsDialog.cpp" line="13" column="2"/>
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="../weather-app/Source/Utils/GraphDialog.cpp">
+            <location file="../weather-app/Source/Utils/GraphDialog.cpp" line="0" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;GeoLocationData.h&quot; not found." verbose="Include file: &quot;GeoLocationData.h&quot; not found.">
+            <location file="../weather-app/Source/Utils/UserLocation.cpp" line="3" column="2"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;Settings.h&quot; not found." verbose="Include file: &quot;Settings.h&quot; not found.">
+            <location file="../weather-app/Source/Utils/UserLocation.cpp" line="4" column="2"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If slots is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If slots is a macro then please configure it." file0="../weather-app/Source/Utils/UserLocation.cpp">
+            <location file="../weather-app/Source/Utils/UserLocation.h" line="21" column="9"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;GraphDialog.h&quot; not found." verbose="Include file: &quot;GraphDialog.h&quot; not found.">
+            <location file="../weather-app/Source/Widgets/DetailedPageWidgets.h" line="13" column="2"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;Settings.h&quot; not found." verbose="Include file: &quot;Settings.h&quot; not found.">
+            <location file="../weather-app/Source/Widgets/DetailedPageWidgets.cpp" line="7" column="2"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If slots is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If slots is a macro then please configure it." file0="../weather-app/Source/Widgets/DetailedPageWidgets.cpp">
+            <location file="../weather-app/Source/Widgets/DetailedPageWidgets.h" line="260" column="8"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;WeatherData.h&quot; not found." verbose="Include file: &quot;WeatherData.h&quot; not found.">
+            <location file="../weather-app/Source/Widgets/WeatherWidget.cpp" line="13" column="2"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;Settings.h&quot; not found." verbose="Include file: &quot;Settings.h&quot; not found.">
+            <location file="../weather-app/Source/Widgets/WeatherWidget.cpp" line="14" column="2"/>
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/main.cpp" line="0" column="0"/>
+        </error>
+        <error id="bitwiseOnBoolean" severity="style" msg="Boolean expression &apos;m_lhs&apos; is used in bitwise operation. Did you mean &apos;||&apos;?" verbose="Boolean expression &apos;m_lhs&apos; is used in bitwise operation. Did you mean &apos;||&apos;?" cwe="398" inconclusive="true" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="2375" column="46"/>
+        </error>
+        <error id="bitwiseOnBoolean" severity="style" msg="Boolean expression &apos;m_lhs&apos; is used in bitwise operation. Did you mean &apos;&amp;&amp;&apos;?" verbose="Boolean expression &apos;m_lhs&apos; is used in bitwise operation. Did you mean &apos;&amp;&amp;&apos;?" cwe="398" inconclusive="true" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="2379" column="46"/>
+        </error>
+        <error id="missingMemberCopy" severity="warning" msg="Member variable &apos;LazyExpression::m_transientExpression&apos; is not assigned in the copy constructor. Should it be copied?" verbose="Member variable &apos;LazyExpression::m_transientExpression&apos; is not assigned in the copy constructor. Should it be copied?" cwe="398" inconclusive="true" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="8193" column="21"/>
+            <symbol>LazyExpression::m_transientExpression</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Option &lt; AssertionResult &gt;::storage&apos; is not initialized in the constructor." verbose="Member variable &apos;Option &lt; AssertionResult &gt;::storage&apos; is not initialized in the constructor. Member variables of native types, pointers, or references are left uninitialized when the class is instantiated. That may cause bugs or undefined behavior." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="4404" column="9"/>
+            <symbol>Option &lt; AssertionResult &gt;::storage</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Option &lt; AssertionResult &gt;::storage&apos; is not initialized in the constructor." verbose="Member variable &apos;Option &lt; AssertionResult &gt;::storage&apos; is not initialized in the constructor. Member variables of native types, pointers, or references are left uninitialized when the class is instantiated. That may cause bugs or undefined behavior." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="4405" column="9"/>
+            <symbol>Option &lt; AssertionResult &gt;::storage</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Option &lt; AssertionResult &gt;::storage&apos; is not initialized in the copy constructor." verbose="Member variable &apos;Option &lt; AssertionResult &gt;::storage&apos; is not initialized in the copy constructor. Member variables of native types, pointers, or references are left uninitialized when the class is instantiated. That may cause bugs or undefined behavior." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="4408" column="9"/>
+            <symbol>Option &lt; AssertionResult &gt;::storage</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Option &lt; unsigned long long &gt;::storage&apos; is not initialized in the constructor." verbose="Member variable &apos;Option &lt; unsigned long long &gt;::storage&apos; is not initialized in the constructor. Member variables of native types, pointers, or references are left uninitialized when the class is instantiated. That may cause bugs or undefined behavior." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="4404" column="9"/>
+            <symbol>Option &lt; unsigned long long &gt;::storage</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Option &lt; unsigned long long &gt;::storage&apos; is not initialized in the constructor." verbose="Member variable &apos;Option &lt; unsigned long long &gt;::storage&apos; is not initialized in the constructor. Member variables of native types, pointers, or references are left uninitialized when the class is instantiated. That may cause bugs or undefined behavior." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="4405" column="9"/>
+            <symbol>Option &lt; unsigned long long &gt;::storage</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Option &lt; unsigned long long &gt;::storage&apos; is not initialized in the copy constructor." verbose="Member variable &apos;Option &lt; unsigned long long &gt;::storage&apos; is not initialized in the copy constructor. Member variables of native types, pointers, or references are left uninitialized when the class is instantiated. That may cause bugs or undefined behavior." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="4408" column="9"/>
+            <symbol>Option &lt; unsigned long long &gt;::storage</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;ResultValueBase &lt; detail :: ParseResultType &gt;::m_value&apos; is not initialized in the constructor." verbose="Member variable &apos;ResultValueBase &lt; detail :: ParseResultType &gt;::m_value&apos; is not initialized in the constructor. Member variables of native types, pointers, or references are left uninitialized when the class is instantiated. That may cause bugs or undefined behavior." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="8954" column="9"/>
+            <symbol>ResultValueBase &lt; detail :: ParseResultType &gt;::m_value</symbol>
+        </error>
+        <error id="unusedPrivateFunction" severity="style" msg="Unused private function: &apos;ExeName::makeRef&apos;" verbose="Unused private function: &apos;ExeName::makeRef&apos;" cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="9298" column="21"/>
+            <location file="../weather-app/Tests/catch.hpp" line="9298" column="21"/>
+            <symbol>ExeName::makeRef</symbol>
+        </error>
+        <error id="useInitializationList" severity="performance" msg="Variable &apos;m_ref&apos; is assigned in constructor body. Consider performing initialization in initialization list." verbose="When an object of a class is created, the constructors of all member variables are called consecutively in the order the variables are declared, even if you don&apos;t explicitly write them to the initialization list. You could avoid assigning &apos;m_ref&apos; a value by passing the value to the constructor in the initialization list." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="9306" column="13"/>
+            <symbol>m_ref</symbol>
+        </error>
+        <error id="functionConst" severity="style" msg="Technically the member function &apos;Catch::Decomposer::operator&lt;=&apos; can be const." verbose="The member function &apos;Catch::Decomposer::operator&lt;=&apos; can be made a const function. Making this function &apos;const&apos; should not cause compiler errors. Even though the function can be made const function technically it may not make sense conceptually. Think about your design and the task of the function first - is it a function that must not change object internal state?" cwe="398" inconclusive="true" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="2414" column="14"/>
+            <symbol>Catch::Decomposer::operator&lt;=</symbol>
+        </error>
+        <error id="functionConst" severity="style" msg="Technically the member function &apos;Catch::Decomposer::operator&lt;=&apos; can be const." verbose="The member function &apos;Catch::Decomposer::operator&lt;=&apos; can be made a const function. Making this function &apos;const&apos; should not cause compiler errors. Even though the function can be made const function technically it may not make sense conceptually. Think about your design and the task of the function first - is it a function that must not change object internal state?" cwe="398" inconclusive="true" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="2418" column="14"/>
+            <symbol>Catch::Decomposer::operator&lt;=</symbol>
+        </error>
+        <error id="functionStatic" severity="style" msg="The member function &apos;Catch::AssertionHandler::allowThrows&apos; can be static." verbose="The member function &apos;Catch::AssertionHandler::allowThrows&apos; can be static." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="8231" column="28"/>
+            <location file="../weather-app/Tests/catch.hpp" line="2582" column="14"/>
+            <symbol>Catch::AssertionHandler::allowThrows</symbol>
+        </error>
+        <error id="functionConst" severity="style" msg="Technically the member function &apos;Catch::Detail::Approx::operator()&apos; can be const." verbose="The member function &apos;Catch::Detail::Approx::operator()&apos; can be made a const function. Making this function &apos;const&apos; should not cause compiler errors. Even though the function can be made const function technically it may not make sense conceptually. Think about your design and the task of the function first - is it a function that must not change object internal state?" cwe="398" inconclusive="true" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="3094" column="16"/>
+            <symbol>Catch::Detail::Approx::operator()</symbol>
+        </error>
+        <error id="functionStatic" severity="style" msg="The member function &apos;Catch::FatalConditionHandler::engage_platform&apos; can be static." verbose="The member function &apos;Catch::FatalConditionHandler::engage_platform&apos; can be static." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="10931" column="33"/>
+            <location file="../weather-app/Tests/catch.hpp" line="8010" column="14"/>
+            <symbol>Catch::FatalConditionHandler::engage_platform</symbol>
+        </error>
+        <error id="functionStatic" severity="style" msg="The member function &apos;Catch::FatalConditionHandler::disengage_platform&apos; can be static." verbose="The member function &apos;Catch::FatalConditionHandler::disengage_platform&apos; can be static." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="10950" column="33"/>
+            <location file="../weather-app/Tests/catch.hpp" line="8011" column="14"/>
+            <symbol>Catch::FatalConditionHandler::disengage_platform</symbol>
+        </error>
+        <error id="functionConst" severity="style" msg="Technically the member function &apos;Catch::clara::TextFlow::Column::operator+&apos; can be const." verbose="The member function &apos;Catch::clara::TextFlow::Column::operator+&apos; can be made a const function. Making this function &apos;const&apos; should not cause compiler errors. Even though the function can be made const function technically it may not make sense conceptually. Think about your design and the task of the function first - is it a function that must not change object internal state?" cwe="398" inconclusive="true" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="8773" column="21"/>
+            <location file="../weather-app/Tests/catch.hpp" line="8646" column="7"/>
+            <symbol>Catch::clara::TextFlow::Column::operator+</symbol>
+        </error>
+        <error id="functionConst" severity="style" msg="Technically the member function &apos;Catch::clara::TextFlow::Columns::operator+&apos; can be const." verbose="The member function &apos;Catch::clara::TextFlow::Columns::operator+&apos; can be made a const function. Making this function &apos;const&apos; should not cause compiler errors. Even though the function can be made const function technically it may not make sense conceptually. Think about your design and the task of the function first - is it a function that must not change object internal state?" cwe="398" inconclusive="true" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="8747" column="7"/>
+            <symbol>Catch::clara::TextFlow::Columns::operator+</symbol>
+        </error>
+        <error id="functionStatic" severity="style" msg="The member function &apos;Catch::::PosixColourImpl::setColour&apos; can be static." verbose="The member function &apos;Catch::::PosixColourImpl::setColour&apos; can be static." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="10207" column="14"/>
+            <symbol>Catch::::PosixColourImpl::setColour</symbol>
+        </error>
+        <error id="functionStatic" severity="style" msg="The member function &apos;Catch::ExceptionTranslatorRegistry::tryTranslators&apos; can be static." verbose="The member function &apos;Catch::ExceptionTranslatorRegistry::tryTranslators&apos; can be static." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="10741" column="46"/>
+            <location file="../weather-app/Tests/catch.hpp" line="10664" column="21"/>
+            <symbol>Catch::ExceptionTranslatorRegistry::tryTranslators</symbol>
+        </error>
+        <error id="functionStatic" severity="style" msg="The member function &apos;Catch::Session::libIdentify&apos; can be static." verbose="The member function &apos;Catch::Session::libIdentify&apos; can be static." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="13442" column="19"/>
+            <location file="../weather-app/Tests/catch.hpp" line="13216" column="14"/>
+            <symbol>Catch::Session::libIdentify</symbol>
+        </error>
+        <error id="functionConst" severity="style" msg="Technically the member function &apos;Catch::Detail::::OutputDebugWriter::operator()&apos; can be const." verbose="The member function &apos;Catch::Detail::::OutputDebugWriter::operator()&apos; can be made a const function. Making this function &apos;const&apos; should not cause compiler errors. Even though the function can be made const function technically it may not make sense conceptually. Think about your design and the task of the function first - is it a function that must not change object internal state?" cwe="398" inconclusive="true" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="13677" column="18"/>
+            <symbol>Catch::Detail::::OutputDebugWriter::operator()</symbol>
+        </error>
+        <error id="functionConst" severity="style" msg="Technically the member function &apos;Catch::ExprLhs &lt; bool &gt;::operator||&apos; can be const." verbose="The member function &apos;Catch::ExprLhs &lt; bool &gt;::operator||&apos; can be made a const function. Making this function &apos;const&apos; should not cause compiler errors. Even though the function can be made const function technically it may not make sense conceptually. Think about your design and the task of the function first - is it a function that must not change object internal state?" cwe="398" inconclusive="true" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="2394" column="14"/>
+            <symbol>Catch::ExprLhs &lt; bool &gt;::operator||</symbol>
+        </error>
+        <error id="virtualCallInConstructor" severity="style" msg="Virtual function &apos;next&apos; is called from constructor &apos;FilterGenerator(P&amp;&amp;pred,GeneratorWrapper&lt;T&gt;&amp;&amp;generator)&apos; at line 4166. Dynamic binding is not used." verbose="Virtual function &apos;next&apos; is called from constructor &apos;FilterGenerator(P&amp;&amp;pred,GeneratorWrapper&lt;T&gt;&amp;&amp;generator)&apos; at line 4166. Dynamic binding is not used." file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="4177" column="14" info="next is a virtual function"/>
+            <location file="../weather-app/Tests/catch.hpp" line="4166" column="42" info="Calling next"/>
+        </error>
+        <error id="duplInheritedMember" severity="warning" msg="The struct &apos;MessageBuilder&apos; defines member function with name &apos;operator&lt;&lt;&apos; also defined in its parent struct &apos;MessageStream&apos;." verbose="The struct &apos;MessageBuilder&apos; defines member function with name &apos;operator&lt;&lt;&apos; also defined in its parent struct &apos;MessageStream&apos;." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="2631" column="25" info="Derived function &apos;MessageBuilder::operator&lt;&lt;&apos;"/>
+            <location file="../weather-app/Tests/catch.hpp" line="2617" column="24" info="Parent function &apos;MessageStream::operator&lt;&lt;&apos;"/>
+            <symbol>MessageBuilder</symbol>
+            <symbol>operator&lt;&lt;</symbol>
+            <symbol>MessageStream</symbol>
+        </error>
+        <error id="duplInheritedMember" severity="warning" msg="The struct &apos;TestEventListenerBase&apos; defines member function with name &apos;getSupportedVerbosities&apos; also defined in its parent struct &apos;StreamingReporterBase &lt; TestEventListenerBase &gt;&apos;." verbose="The struct &apos;TestEventListenerBase&apos; defines member function with name &apos;getSupportedVerbosities&apos; also defined in its parent struct &apos;StreamingReporterBase &lt; TestEventListenerBase &gt;&apos;." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="15814" column="48" info="Derived function &apos;TestEventListenerBase::getSupportedVerbosities&apos;"/>
+            <location file="../weather-app/Tests/catch.hpp" line="5744" column="36" info="Parent function &apos;StreamingReporterBase &lt; TestEventListenerBase &gt;::getSupportedVerbosities&apos;"/>
+            <symbol>TestEventListenerBase</symbol>
+            <symbol>getSupportedVerbosities</symbol>
+            <symbol>StreamingReporterBase &lt; TestEventListenerBase &gt;</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;StringRef&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;StringRef&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="618" column="9"/>
+            <symbol>StringRef</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;StringRef&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;StringRef&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="625" column="9"/>
+            <symbol>StringRef</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;TestInvokerAsMethod&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;TestInvokerAsMethod&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="963" column="5"/>
+            <symbol>TestInvokerAsMethod</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &apos;NameAndTags&apos; has a constructor with 1 argument that is not explicit." verbose="Struct &apos;NameAndTags&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="979" column="5"/>
+            <symbol>NameAndTags</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;LazyExpression&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;LazyExpression&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="2532" column="9"/>
+            <symbol>LazyExpression</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;Section&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;Section&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="2911" column="9"/>
+            <symbol>Section</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;ExceptionTranslatorRegistrar&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;ExceptionTranslatorRegistrar&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="3050" column="9"/>
+            <symbol>ExceptionTranslatorRegistrar</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;ExceptionTranslator&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;ExceptionTranslator&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="3024" column="13"/>
+            <symbol>ExceptionTranslator</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;ExceptionMessageMatcher&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;ExceptionMessageMatcher&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="3401" column="5"/>
+            <symbol>ExceptionMessageMatcher</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &apos;EqualsMatcher&apos; has a constructor with 1 argument that is not explicit." verbose="Struct &apos;EqualsMatcher&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="3555" column="13"/>
+            <symbol>EqualsMatcher</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &apos;ContainsMatcher&apos; has a constructor with 1 argument that is not explicit." verbose="Struct &apos;ContainsMatcher&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="3559" column="13"/>
+            <symbol>ContainsMatcher</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &apos;StartsWithMatcher&apos; has a constructor with 1 argument that is not explicit." verbose="Struct &apos;StartsWithMatcher&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="3563" column="13"/>
+            <symbol>StartsWithMatcher</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &apos;EndsWithMatcher&apos; has a constructor with 1 argument that is not explicit." verbose="Struct &apos;EndsWithMatcher&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="3567" column="13"/>
+            <symbol>EndsWithMatcher</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &apos;ContainsElementMatcher&apos; has a constructor with 1 argument that is not explicit." verbose="Struct &apos;ContainsElementMatcher&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="3607" column="13"/>
+            <symbol>ContainsElementMatcher</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &apos;ContainsMatcher&apos; has a constructor with 1 argument that is not explicit." verbose="Struct &apos;ContainsMatcher&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="3628" column="13"/>
+            <symbol>ContainsMatcher</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &apos;EqualsMatcher&apos; has a constructor with 1 argument that is not explicit." verbose="Struct &apos;EqualsMatcher&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="3658" column="13"/>
+            <symbol>EqualsMatcher</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &apos;ApproxMatcher&apos; has a constructor with 1 argument that is not explicit." verbose="Struct &apos;ApproxMatcher&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="3681" column="13"/>
+            <symbol>ApproxMatcher</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &apos;UnorderedEqualsMatcher&apos; has a constructor with 1 argument that is not explicit." verbose="Struct &apos;UnorderedEqualsMatcher&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="3716" column="13"/>
+            <symbol>UnorderedEqualsMatcher</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;GeneratorException&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;GeneratorException&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="3921" column="5"/>
+            <symbol>GeneratorException</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;SingleValueGenerator&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;SingleValueGenerator&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="3954" column="9"/>
+            <symbol>SingleValueGenerator</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;GeneratorWrapper&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;GeneratorWrapper&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="3987" column="9"/>
+            <symbol>GeneratorWrapper</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;TestSpecParser&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;TestSpecParser&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="5210" column="9"/>
+            <symbol>TestSpecParser</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;Config&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;Config&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="5314" column="9"/>
+            <symbol>Config</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &apos;TestRunInfo&apos; has a constructor with 1 argument that is not explicit." verbose="Struct &apos;TestRunInfo&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="5507" column="9"/>
+            <symbol>TestRunInfo</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &apos;TestGroupStats&apos; has a constructor with 1 argument that is not explicit." verbose="Struct &apos;TestGroupStats&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="5577" column="9"/>
+            <symbol>TestGroupStats</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &apos;TestEventListenerBase&apos; has a constructor with 1 argument that is not explicit." verbose="Struct &apos;TestEventListenerBase&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="5968" column="9"/>
+            <symbol>TestEventListenerBase</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &apos;Colour&apos; has a constructor with 1 argument that is not explicit." verbose="Struct &apos;Colour&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="6021" column="9"/>
+            <symbol>Colour</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &apos;ConsoleReporter&apos; has a constructor with 1 argument that is not explicit." verbose="Struct &apos;ConsoleReporter&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="6151" column="9"/>
+            <symbol>ConsoleReporter</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;XmlEncode&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;XmlEncode&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="6231" column="9"/>
+            <symbol>XmlEncode</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;XmlWriter&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;XmlWriter&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="6267" column="9"/>
+            <symbol>XmlWriter</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;JunitReporter&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;JunitReporter&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="6322" column="9"/>
+            <symbol>JunitReporter</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;XmlReporter&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;XmlReporter&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="6371" column="9"/>
+            <symbol>XmlReporter</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;FatalConditionHandlerGuard&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;FatalConditionHandlerGuard&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="8034" column="9"/>
+            <symbol>FatalConditionHandlerGuard</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;TestInvokerAsFunction&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;TestInvokerAsFunction&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="12313" column="9"/>
+            <symbol>TestInvokerAsFunction</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;FileStream&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;FileStream&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="13687" column="13"/>
+            <symbol>FileStream</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &apos;BySectionInfo&apos; has a constructor with 1 argument that is not explicit." verbose="Struct &apos;BySectionInfo&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="5832" column="13"/>
+            <symbol>BySectionInfo</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &apos;StreamingReporterBase &lt; TestEventListenerBase &gt;&apos; has a constructor with 1 argument that is not explicit." verbose="Struct &apos;StreamingReporterBase &lt; TestEventListenerBase &gt;&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="5731" column="9"/>
+            <symbol>StreamingReporterBase &lt; TestEventListenerBase &gt;</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &apos;StreamingReporterBase &lt; CompactReporter &gt;&apos; has a constructor with 1 argument that is not explicit." verbose="Struct &apos;StreamingReporterBase &lt; CompactReporter &gt;&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="5731" column="9"/>
+            <symbol>StreamingReporterBase &lt; CompactReporter &gt;</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &apos;StreamingReporterBase &lt; ConsoleReporter &gt;&apos; has a constructor with 1 argument that is not explicit." verbose="Struct &apos;StreamingReporterBase &lt; ConsoleReporter &gt;&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="5731" column="9"/>
+            <symbol>StreamingReporterBase &lt; ConsoleReporter &gt;</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &apos;StreamingReporterBase &lt; XmlReporter &gt;&apos; has a constructor with 1 argument that is not explicit." verbose="Struct &apos;StreamingReporterBase &lt; XmlReporter &gt;&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="5731" column="9"/>
+            <symbol>StreamingReporterBase &lt; XmlReporter &gt;</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;Option &lt; AssertionResult &gt;&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;Option &lt; AssertionResult &gt;&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="4405" column="9"/>
+            <symbol>Option &lt; AssertionResult &gt;</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;Option &lt; unsigned long long &gt;&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;Option &lt; unsigned long long &gt;&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="4405" column="9"/>
+            <symbol>Option &lt; unsigned long long &gt;</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;ResultValueBase &lt; detail :: ParseResultType &gt;&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;ResultValueBase &lt; detail :: ParseResultType &gt;&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="8954" column="9"/>
+            <symbol>ResultValueBase &lt; detail :: ParseResultType &gt;</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;ResultValueBase &lt; ParseState &gt;&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;ResultValueBase &lt; ParseState &gt;&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="8954" column="9"/>
+            <symbol>ResultValueBase &lt; ParseState &gt;</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &apos;MatchNotOf &lt; std :: exception &gt;&apos; has a constructor with 1 argument that is not explicit." verbose="Struct &apos;MatchNotOf &lt; std :: exception &gt;&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="3356" column="13"/>
+            <symbol>MatchNotOf &lt; std :: exception &gt;</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &apos;MatchNotOf &lt; std &gt;&apos; has a constructor with 1 argument that is not explicit." verbose="Struct &apos;MatchNotOf &lt; std &gt;&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="3356" column="13"/>
+            <symbol>MatchNotOf &lt; std &gt;</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &apos;MatchNotOf &lt; double &gt;&apos; has a constructor with 1 argument that is not explicit." verbose="Struct &apos;MatchNotOf &lt; double &gt;&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="3356" column="13"/>
+            <symbol>MatchNotOf &lt; double &gt;</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &apos;MatchNotOf &lt; std :: string &gt;&apos; has a constructor with 1 argument that is not explicit." verbose="Struct &apos;MatchNotOf &lt; std :: string &gt;&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="3356" column="13"/>
+            <symbol>MatchNotOf &lt; std :: string &gt;</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The destructor &apos;~AutoReg&apos; overrides a destructor in a base class but is not marked with a &apos;override&apos; specifier." verbose="The destructor &apos;~AutoReg&apos; overrides a destructor in a base class but is not marked with a &apos;override&apos; specifier." file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="986" column="6" info="Destructor in derived class"/>
+            <location file="../weather-app/Tests/catch.hpp" line="497" column="18" info="Virtual destructor in base class"/>
+            <symbol>~AutoReg</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The destructor &apos;~ReusableStringStream&apos; overrides a destructor in a base class but is not marked with a &apos;override&apos; specifier." verbose="The destructor &apos;~ReusableStringStream&apos; overrides a destructor in a base class but is not marked with a &apos;override&apos; specifier." file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="1443" column="10" info="Destructor in derived class"/>
+            <location file="../weather-app/Tests/catch.hpp" line="497" column="18" info="Virtual destructor in base class"/>
+            <symbol>~ReusableStringStream</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The destructor &apos;~Section&apos; overrides a destructor in a base class but is not marked with a &apos;override&apos; specifier." verbose="The destructor &apos;~Section&apos; overrides a destructor in a base class but is not marked with a &apos;override&apos; specifier." file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="2912" column="10" info="Destructor in derived class"/>
+            <location file="../weather-app/Tests/catch.hpp" line="497" column="18" info="Virtual destructor in base class"/>
+            <symbol>~Section</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The destructor &apos;~IGenerator&apos; overrides a destructor in a base class but is not marked with a &apos;override&apos; specifier." verbose="The destructor &apos;~IGenerator&apos; overrides a destructor in a base class but is not marked with a &apos;override&apos; specifier." file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="3940" column="18" info="Destructor in derived class"/>
+            <location file="../weather-app/Tests/catch.hpp" line="3846" column="22" info="Virtual destructor in base class"/>
+            <symbol>~IGenerator</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The destructor &apos;~IMutableContext&apos; overrides a destructor in a base class but is not marked with a &apos;override&apos; specifier." verbose="The destructor &apos;~IMutableContext&apos; overrides a destructor in a base class but is not marked with a &apos;override&apos; specifier." file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="4362" column="18" info="Destructor in derived class"/>
+            <location file="../weather-app/Tests/catch.hpp" line="4353" column="18" info="Virtual destructor in base class"/>
+            <symbol>~IMutableContext</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The destructor &apos;~IConfig&apos; overrides a destructor in a base class but is not marked with a &apos;override&apos; specifier." verbose="The destructor &apos;~IConfig&apos; overrides a destructor in a base class but is not marked with a &apos;override&apos; specifier." file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="4507" column="18" info="Destructor in derived class"/>
+            <location file="../weather-app/Tests/catch.hpp" line="497" column="18" info="Virtual destructor in base class"/>
+            <symbol>~IConfig</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The destructor &apos;~Config&apos; overrides a destructor in a base class but is not marked with a &apos;override&apos; specifier." verbose="The destructor &apos;~Config&apos; overrides a destructor in a base class but is not marked with a &apos;override&apos; specifier." file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="5315" column="18" info="Destructor in derived class"/>
+            <location file="../weather-app/Tests/catch.hpp" line="4507" column="18" info="Virtual destructor in base class"/>
+            <symbol>~Config</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;isFlag&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;isFlag&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="9118" column="22" info="Function in derived class"/>
+            <location file="../weather-app/Tests/catch.hpp" line="9111" column="22" info="Virtual function in base class"/>
+            <symbol>isFlag</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The destructor &apos;~ExceptionTranslatorRegistry&apos; overrides a destructor in a base class but is not marked with a &apos;override&apos; specifier." verbose="The destructor &apos;~ExceptionTranslatorRegistry&apos; overrides a destructor in a base class but is not marked with a &apos;override&apos; specifier." file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="10661" column="10" info="Destructor in derived class"/>
+            <location file="../weather-app/Tests/catch.hpp" line="3014" column="18" info="Virtual destructor in base class"/>
+            <symbol>~ExceptionTranslatorRegistry</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The destructor &apos;~TestRegistry&apos; overrides a destructor in a base class but is not marked with a &apos;override&apos; specifier." verbose="The destructor &apos;~TestRegistry&apos; overrides a destructor in a base class but is not marked with a &apos;override&apos; specifier." file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="12293" column="18" info="Destructor in derived class"/>
+            <location file="../weather-app/Tests/catch.hpp" line="579" column="18" info="Virtual destructor in base class"/>
+            <symbol>~TestRegistry</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The destructor &apos;~GeneratorTracker&apos; overrides a destructor in a base class but is not marked with a &apos;override&apos; specifier." verbose="The destructor &apos;~GeneratorTracker&apos; overrides a destructor in a base class but is not marked with a &apos;override&apos; specifier." file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="12587" column="14" info="Destructor in derived class"/>
+            <location file="../weather-app/Tests/catch.hpp" line="3858" column="18" info="Virtual destructor in base class"/>
+            <symbol>~GeneratorTracker</symbol>
+        </error>
+        <error id="uselessOverride" severity="style" msg="The destructor &apos;~TagAliasRegistry&apos; overrides a destructor in a base class but is identical to the overridden function" verbose="The destructor &apos;~TagAliasRegistry&apos; overrides a destructor in a base class but is identical to the overridden function" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="12376" column="10" info="Destructor in derived class"/>
+            <location file="../weather-app/Tests/catch.hpp" line="5181" column="18" info="Virtual destructor in base class"/>
+            <symbol>~TagAliasRegistry</symbol>
+        </error>
+        <error id="uselessOverride" severity="style" msg="The function &apos;reportInvalidArguments&apos; overrides a function in a base class but is identical to the overridden function" verbose="The function &apos;reportInvalidArguments&apos; overrides a function in a base class but is identical to the overridden function" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="5752" column="14" info="Function in derived class"/>
+            <location file="../weather-app/Tests/catch.hpp" line="5655" column="22" info="Virtual function in base class"/>
+            <symbol>reportInvalidArguments</symbol>
+        </error>
+        <error id="returnByReference" severity="performance" msg="Function &apos;exeName()&apos; should return member &apos;m_exeName&apos; by const reference." verbose="Function &apos;exeName()&apos; should return member &apos;m_exeName&apos; by const reference." file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="8834" column="14"/>
+        </error>
+        <error id="returnByReference" severity="performance" msg="Function &apos;remainingTokens()&apos; should return member &apos;m_remainingTokens&apos; by const reference." verbose="Function &apos;remainingTokens()&apos; should return member &apos;m_remainingTokens&apos; by const reference." file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="9048" column="14"/>
+        </error>
+        <error id="returnByReference" severity="performance" msg="Function &apos;hint()&apos; should return member &apos;m_hint&apos; by const reference." verbose="Function &apos;hint()&apos; should return member &apos;m_hint&apos; by const reference." file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="9290" column="14"/>
+        </error>
+        <error id="returnByReference" severity="performance" msg="Function &apos;errorMessage()&apos; should return member &apos;m_errorMessage&apos; by const reference." verbose="Function &apos;errorMessage()&apos; should return member &apos;m_errorMessage&apos; by const reference." file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="9009" column="14"/>
+        </error>
+        <error id="duplicateConditionalAssign" severity="style" msg="The statement &apos;if (m_headerPrinted) m_headerPrinted=false&apos; is logically equivalent to &apos;m_headerPrinted=false&apos;." verbose="The statement &apos;if (m_headerPrinted) m_headerPrinted=false&apos; is logically equivalent to &apos;m_headerPrinted=false&apos;." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="16514" column="9" info="Condition &apos;m_headerPrinted&apos; is redundant"/>
+            <location file="../weather-app/Tests/catch.hpp" line="16515" column="25" info="Assignment &apos;m_headerPrinted=false&apos;"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;!uncaught_exceptions()&apos; is always true" verbose="Condition &apos;!uncaught_exceptions()&apos; is always true" cwe="571" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="11856" column="14" info="Condition &apos;!uncaught_exceptions()&apos; is always true"/>
+            <location file="../weather-app/Tests/catch.hpp" line="11856" column="34" info="Calling function &apos;uncaught_exceptions&apos; returns 0"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;!uncaught_exceptions()&apos; is always true" verbose="Condition &apos;!uncaught_exceptions()&apos; is always true" cwe="571" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="11919" column="14" info="Condition &apos;!uncaught_exceptions()&apos; is always true"/>
+            <location file="../weather-app/Tests/catch.hpp" line="11919" column="34" info="Calling function &apos;uncaught_exceptions&apos; returns 0"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;value&apos; is always true" verbose="Condition &apos;value&apos; is always true" cwe="571" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="15026" column="24" info="Condition &apos;value&apos; is always true"/>
+            <location file="../weather-app/Tests/catch.hpp" line="15025" column="30" info="Assignment &apos;value=*reinterpret_cast&lt;char*&gt;(&amp;one)&apos;, assigned value is 1"/>
+            <location file="../weather-app/Tests/catch.hpp" line="15022" column="27" info="Assignment &apos;one=1&apos;, assigned value is 1"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;Endianness::which()==Endianness::Little&apos; is always true" verbose="Condition &apos;Endianness::which()==Endianness::Little&apos; is always true" cwe="571" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="15034" column="33" info="Condition &apos;Endianness::which()==Endianness::Little&apos; is always true"/>
+            <location file="../weather-app/Tests/catch.hpp" line="15034" column="30" info="Calling function &apos;which&apos; returns 1"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;0x80&lt;=value&apos; is always true" verbose="Condition &apos;0x80&lt;=value&apos; is always true" cwe="571" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="15575" column="27" info="Condition &apos;0x80&lt;=value&apos; is always true"/>
+            <location file="../weather-app/Tests/catch.hpp" line="15574" column="28" info="Assuming that condition &apos;value&lt;0x80&apos; is not redundant"/>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;parent&apos; is redundant or there is possible null pointer dereference: parent." verbose="Either the condition &apos;parent&apos; is redundant or there is possible null pointer dereference: parent." cwe="476" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="12660" column="30" info="Null pointer dereference"/>
+            <location file="../weather-app/Tests/catch.hpp" line="12663" column="29" info="Assuming that condition &apos;parent&apos; is not redundant"/>
+            <symbol>parent</symbol>
+        </error>
+        <error id="funcArgNamesDifferent" severity="style" msg="Function &apos;registerEnum&apos; argument 2 names different: declaration &apos;allEnums&apos; definition &apos;allValueNames&apos;." verbose="Function &apos;registerEnum&apos; argument 2 names different: declaration &apos;allEnums&apos; definition &apos;allValueNames&apos;." cwe="628" inconclusive="true" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="10631" column="89"/>
+            <location file="../weather-app/Tests/catch.hpp" line="10564" column="73"/>
+            <symbol>registerEnum</symbol>
+        </error>
+        <error id="funcArgNamesDifferent" severity="style" msg="Function &apos;substr&apos; argument 2 names different: declaration &apos;length&apos; definition &apos;size&apos;." verbose="Function &apos;substr&apos; argument 2 names different: declaration &apos;length&apos; definition &apos;size&apos;." cwe="628" inconclusive="true" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="13916" column="56"/>
+            <location file="../weather-app/Tests/catch.hpp" line="661" column="49"/>
+            <symbol>substr</symbol>
+        </error>
+        <error id="funcArgNamesDifferent" severity="style" msg="Function &apos;operator&lt;&lt;&apos; argument 2 names different: declaration &apos;sr&apos; definition &apos;str&apos;." verbose="Function &apos;operator&lt;&lt;&apos; argument 2 names different: declaration &apos;sr&apos; definition &apos;str&apos;." cwe="628" inconclusive="true" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="13928" column="59"/>
+            <location file="../weather-app/Tests/catch.hpp" line="676" column="59"/>
+            <symbol>operator&lt;&lt;</symbol>
+        </error>
+        <error id="funcArgNamesDifferent" severity="style" msg="Function &apos;operator+=&apos; argument 2 names different: declaration &apos;sr&apos; definition &apos;rhs&apos;." verbose="Function &apos;operator+=&apos; argument 2 names different: declaration &apos;sr&apos; definition &apos;rhs&apos;." cwe="628" inconclusive="true" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="13932" column="57"/>
+            <location file="../weather-app/Tests/catch.hpp" line="675" column="59"/>
+            <symbol>operator+=</symbol>
+        </error>
+        <error id="funcArgNamesDifferent" severity="style" msg="Function &apos;makeTestCase&apos; argument 1 names different: declaration &apos;testCase&apos; definition &apos;_testCase&apos;." verbose="Function &apos;makeTestCase&apos; argument 1 names different: declaration &apos;testCase&apos; definition &apos;_testCase&apos;." cwe="628" inconclusive="true" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="14045" column="43"/>
+            <location file="../weather-app/Tests/catch.hpp" line="4818" column="43"/>
+            <symbol>makeTestCase</symbol>
+        </error>
+        <error id="funcArgNamesDifferent" severity="style" msg="Function &apos;makeTestCase&apos; argument 2 names different: declaration &apos;className&apos; definition &apos;_className&apos;." verbose="Function &apos;makeTestCase&apos; argument 2 names different: declaration &apos;className&apos; definition &apos;_className&apos;." cwe="628" inconclusive="true" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="14046" column="48"/>
+            <location file="../weather-app/Tests/catch.hpp" line="4819" column="48"/>
+            <symbol>makeTestCase</symbol>
+        </error>
+        <error id="funcArgNamesDifferent" severity="style" msg="Function &apos;makeTestCase&apos; argument 4 names different: declaration &apos;lineInfo&apos; definition &apos;_lineInfo&apos;." verbose="Function &apos;makeTestCase&apos; argument 4 names different: declaration &apos;lineInfo&apos; definition &apos;_lineInfo&apos;." cwe="628" inconclusive="true" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="14048" column="51"/>
+            <location file="../weather-app/Tests/catch.hpp" line="4821" column="51"/>
+            <symbol>makeTestCase</symbol>
+        </error>
+        <error id="funcArgNamesDifferent" severity="style" msg="Function &apos;testRunStarting&apos; argument 1 names different: declaration &apos;_testRunInfo&apos; definition &apos;_testInfo&apos;." verbose="Function &apos;testRunStarting&apos; argument 1 names different: declaration &apos;_testRunInfo&apos; definition &apos;_testInfo&apos;." cwe="628" inconclusive="true" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="16588" column="58"/>
+            <location file="../weather-app/Tests/catch.hpp" line="6176" column="49"/>
+            <symbol>testRunStarting</symbol>
+        </error>
+        <error id="shadowFunction" severity="style" msg="Local variable &apos;matches&apos; shadows outer function" verbose="Local variable &apos;matches&apos; shadows outer function" cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="14677" column="17" info="Shadow variable"/>
+            <location file="../weather-app/Tests/catch.hpp" line="5156" column="14" info="Shadowed declaration"/>
+            <symbol>matches</symbol>
+        </error>
+        <error id="constStatement" severity="warning" msg="Redundant code: Found unused function." verbose="Redundant code: Found unused function." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="13836" column="0"/>
+        </error>
+        <error id="constStatement" severity="warning" msg="Redundant code: Found unused function." verbose="Redundant code: Found unused function." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="15033" column="0"/>
+        </error>
+        <error id="constVariableReference" severity="style" msg="Variable &apos;rootTracker&apos; can be declared as reference to const" verbose="Variable &apos;rootTracker&apos; can be declared as reference to const" cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="12748" column="19" info="Variable &apos;rootTracker&apos; can be declared as reference to const"/>
+            <symbol>rootTracker</symbol>
+        </error>
+        <error id="constVariableReference" severity="style" msg="Variable &apos;tracker&apos; can be declared as reference to const" verbose="Variable &apos;tracker&apos; can be declared as reference to const" cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="12831" column="27" info="Variable &apos;tracker&apos; can be declared as reference to const"/>
+            <symbol>tracker</symbol>
+        </error>
+        <error id="constParameterReference" severity="style" msg="Parameter &apos;result&apos; can be declared as reference to const" verbose="Parameter &apos;result&apos; can be declared as reference to const" cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="15761" column="53" info="Parameter &apos;result&apos; can be declared as reference to const"/>
+            <symbol>result</symbol>
+        </error>
+        <error id="uselessCallsSubstr" severity="performance" msg="Ineffective call of function &apos;substr&apos; because a prefix of the string is assigned to itself. Use replace() instead." verbose="Ineffective call of function &apos;substr&apos; because a prefix of the string is assigned to itself. Use replace() instead." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="13858" column="19"/>
+        </error>
+        <error id="uselessCallsSubstr" severity="performance" msg="Ineffective call of function &apos;substr&apos; because a prefix of the string is assigned to itself. Use replace() instead." verbose="Ineffective call of function &apos;substr&apos; because a prefix of the string is assigned to itself. Use replace() instead." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="13981" column="37"/>
+        </error>
+        <error id="uselessCallsSubstr" severity="performance" msg="Ineffective call of function &apos;substr&apos; because a prefix of the string is assigned to itself. Use replace() instead." verbose="Ineffective call of function &apos;substr&apos; because a prefix of the string is assigned to itself. Use replace() instead." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="14867" column="21"/>
+        </error>
+        <error id="uselessCallsSubstr" severity="performance" msg="Ineffective call of function &apos;substr&apos; because a prefix of the string is assigned to itself. Use resize() or pop_back() instead." verbose="Ineffective call of function &apos;substr&apos; because a prefix of the string is assigned to itself. Use resize() or pop_back() instead." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="15063" column="13"/>
+        </error>
+        <error id="uselessCallsSubstr" severity="performance" msg="Ineffective call of function &apos;substr&apos; because a prefix of the string is assigned to itself. Use resize() or pop_back() instead." verbose="Ineffective call of function &apos;substr&apos; because a prefix of the string is assigned to itself. Use resize() or pop_back() instead." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="15403" column="25"/>
+        </error>
+        <error id="uselessCallsSubstr" severity="performance" msg="Ineffective call of function &apos;substr&apos; because a prefix of the string is assigned to itself. Use resize() or pop_back() instead." verbose="Ineffective call of function &apos;substr&apos; because a prefix of the string is assigned to itself. Use resize() or pop_back() instead." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="15666" column="20"/>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::transform algorithm instead of a raw loop." verbose="Consider using std::transform algorithm instead of a raw loop." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="1485" column="27"/>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::any_of algorithm instead of a raw loop." verbose="Consider using std::any_of algorithm instead of a raw loop." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="3610" column="17"/>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::any_of algorithm instead of a raw loop." verbose="Consider using std::any_of algorithm instead of a raw loop." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="3637" column="47"/>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::transform algorithm instead of a raw loop." verbose="Consider using std::transform algorithm instead of a raw loop." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="8682" column="17"/>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::transform algorithm instead of a raw loop." verbose="Consider using std::transform algorithm instead of a raw loop." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="8698" column="17"/>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::any_of algorithm instead of a raw loop." verbose="Consider using std::any_of algorithm instead of a raw loop." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="9407" column="13"/>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::accumulate algorithm instead of a raw loop." verbose="Consider using std::accumulate algorithm instead of a raw loop." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="9559" column="26"/>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::transform algorithm instead of a raw loop." verbose="Consider using std::transform algorithm instead of a raw loop." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="9955" column="18"/>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::transform algorithm instead of a raw loop." verbose="Consider using std::transform algorithm instead of a raw loop." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="9958" column="18"/>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::transform algorithm instead of a raw loop." verbose="Consider using std::transform algorithm instead of a raw loop." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="10602" column="24"/>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::find_if algorithm instead of a raw loop." verbose="Consider using std::find_if algorithm instead of a raw loop." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="10611" column="0"/>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::find_if algorithm instead of a raw loop." verbose="Consider using std::find_if algorithm instead of a raw loop." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="10903" column="32"/>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::accumulate algorithm instead of a raw loop." verbose="Consider using std::accumulate algorithm instead of a raw loop." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="11310" column="18"/>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::accumulate algorithm instead of a raw loop." verbose="Consider using std::accumulate algorithm instead of a raw loop." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="11362" column="24"/>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::any_of algorithm instead of a raw loop." verbose="Consider using std::any_of algorithm instead of a raw loop." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="12674" column="21"/>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::accumulate algorithm instead of a raw loop." verbose="Consider using std::accumulate algorithm instead of a raw loop." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="14139" column="23"/>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::transform algorithm instead of a raw loop." verbose="Consider using std::transform algorithm instead of a raw loop." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="14235" column="35"/>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::transform algorithm instead of a raw loop." verbose="Consider using std::transform algorithm instead of a raw loop." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="14250" column="28"/>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::copy_if algorithm instead of a raw loop." verbose="Consider using std::copy_if algorithm instead of a raw loop." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="14284" column="25"/>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::accumulate algorithm instead of a raw loop." verbose="Consider using std::accumulate algorithm instead of a raw loop." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="14663" column="18"/>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::accumulate algorithm instead of a raw loop." verbose="Consider using std::accumulate algorithm instead of a raw loop." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="15123" column="11"/>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::any_of algorithm instead of a raw loop." verbose="Consider using std::any_of algorithm instead of a raw loop." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="3322" column="17"/>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::all_of or std::none_of algorithm instead of a raw loop." verbose="Consider using std::all_of or std::none_of algorithm instead of a raw loop." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="3288" column="17"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="10690" column="13"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="4855" column="1"/>
+        </error>
+        <error id="functionStatic" severity="style" msg="The member function &apos;Catch::FatalConditionHandler::engage_platform&apos; can be static." verbose="The member function &apos;Catch::FatalConditionHandler::engage_platform&apos; can be static." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="10758" column="33"/>
+            <location file="../weather-app/Tests/catch.hpp" line="8010" column="14"/>
+            <symbol>Catch::FatalConditionHandler::engage_platform</symbol>
+        </error>
+        <error id="functionStatic" severity="style" msg="The member function &apos;Catch::FatalConditionHandler::disengage_platform&apos; can be static." verbose="The member function &apos;Catch::FatalConditionHandler::disengage_platform&apos; can be static." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="10759" column="33"/>
+            <location file="../weather-app/Tests/catch.hpp" line="8011" column="14"/>
+            <symbol>Catch::FatalConditionHandler::disengage_platform</symbol>
+        </error>
+        <error id="unreachableCode" severity="style" msg="Statements following &apos;return&apos; will never be executed." verbose="Statements following &apos;return&apos; will never be executed." cwe="561" inconclusive="true" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="13564" column="9"/>
+        </error>
+        <error id="constVariableReference" severity="style" msg="Variable &apos;msg&apos; can be declared as reference to const" verbose="Variable &apos;msg&apos; can be declared as reference to const" cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="10717" column="29" info="Variable &apos;msg&apos; can be declared as reference to const"/>
+            <symbol>msg</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;timeInfo&apos; can be declared as pointer to const" verbose="Variable &apos;timeInfo&apos; can be declared as pointer to const" cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="16812" column="22" info="Variable &apos;timeInfo&apos; can be declared as pointer to const"/>
+            <symbol>timeInfo</symbol>
+        </error>
+        <error id="shadowFunction" severity="style" msg="Local variable &apos;outlier_variance&apos; shadows outer function" verbose="Local variable &apos;outlier_variance&apos; shadows outer function" cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="7843" column="24" info="Shadow variable"/>
+            <location file="../weather-app/Tests/catch.hpp" line="7779" column="20" info="Shadowed declaration"/>
+            <symbol>outlier_variance</symbol>
+        </error>
+        <error id="missingReturn" severity="error" msg="Found an exit path from function with non-void return type that has missing return statement" verbose="Found an exit path from function with non-void return type that has missing return statement" cwe="758" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="6584" column="13"/>
+        </error>
+        <error id="functionConst" severity="style" msg="Technically the member function &apos;Catch::Benchmark::Benchmark::operatorbool&apos; can be const." verbose="The member function &apos;Catch::Benchmark::Benchmark::operatorbool&apos; can be made a const function. Making this function &apos;const&apos; should not cause compiler errors. Even though the function can be made const function technically it may not make sense conceptually. Think about your design and the task of the function first - is it a function that must not change object internal state?" cwe="398" inconclusive="true" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="7355" column="22"/>
+            <symbol>Catch::Benchmark::Benchmark::operatorbool</symbol>
+        </error>
+        <error id="functionStatic" severity="style" msg="The member function &apos;Catch::Benchmark::Detail::ObjectStorage::destruct_on_exit&apos; can be static." verbose="The member function &apos;Catch::Benchmark::Detail::ObjectStorage::destruct_on_exit&apos; can be static." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="7425" column="22"/>
+            <symbol>Catch::Benchmark::Detail::ObjectStorage::destruct_on_exit</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &apos;BenchmarkFunction&apos; has a constructor with 1 argument that is not explicit." verbose="Struct &apos;BenchmarkFunction&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="6731" column="17"/>
+            <symbol>BenchmarkFunction</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &apos;BenchmarkFunction&apos; has a constructor with 1 argument that is not explicit." verbose="Struct &apos;BenchmarkFunction&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="6739" column="21"/>
+            <symbol>BenchmarkFunction</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &apos;Benchmark&apos; has a constructor with 1 argument that is not explicit." verbose="Struct &apos;Benchmark&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="7292" column="13"/>
+            <symbol>Benchmark</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &apos;model &lt; do_nothing &gt;&apos; has a constructor with 1 argument that is not explicit." verbose="Struct &apos;model &lt; do_nothing &gt;&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="6710" column="21"/>
+            <symbol>model &lt; do_nothing &gt;</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &apos;model &lt; do_nothing &gt;&apos; has a constructor with 1 argument that is not explicit." verbose="Struct &apos;model &lt; do_nothing &gt;&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="6711" column="21"/>
+            <symbol>model &lt; do_nothing &gt;</symbol>
+        </error>
+        <error id="funcArgNamesDifferent" severity="style" msg="Function &apos;benchmarkFailed&apos; argument 1 names different: declaration &apos;std&apos; definition &apos;error&apos;." verbose="Function &apos;benchmarkFailed&apos; argument 1 names different: declaration &apos;std&apos; definition &apos;error&apos;." cwe="628" inconclusive="true" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="17139" column="62"/>
+            <location file="../weather-app/Tests/catch.hpp" line="11040" column="30"/>
+            <symbol>benchmarkFailed</symbol>
+        </error>
+        <error id="funcArgNamesDifferent" severity="style" msg="Function &apos;benchmarkFailed&apos; argument 1 names different: declaration &apos;std&apos; definition &apos;error&apos;." verbose="Function &apos;benchmarkFailed&apos; argument 1 names different: declaration &apos;std&apos; definition &apos;error&apos;." cwe="628" inconclusive="true" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="17486" column="58"/>
+            <location file="../weather-app/Tests/catch.hpp" line="6409" column="30"/>
+            <symbol>benchmarkFailed</symbol>
+        </error>
+        <error id="shadowFunction" severity="style" msg="Local variable &apos;resolution&apos; shadows outer function" verbose="Local variable &apos;resolution&apos; shadows outer function" cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="7168" column="22" info="Shadow variable"/>
+            <location file="../weather-app/Tests/catch.hpp" line="7094" column="33" info="Shadowed declaration"/>
+            <symbol>resolution</symbol>
+        </error>
+        <error id="shadowFunction" severity="style" msg="Local variable &apos;mean&apos; shadows outer function" verbose="Local variable &apos;mean&apos; shadows outer function" cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="7261" column="30" info="Shadow variable"/>
+            <location file="../weather-app/Tests/catch.hpp" line="6984" column="20" info="Shadowed declaration"/>
+            <symbol>mean</symbol>
+        </error>
+        <error id="shadowFunction" severity="style" msg="Local variable &apos;mean&apos; shadows outer function" verbose="Local variable &apos;mean&apos; shadows outer function" cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="7813" column="22" info="Shadow variable"/>
+            <location file="../weather-app/Tests/catch.hpp" line="6984" column="20" info="Shadowed declaration"/>
+            <symbol>mean</symbol>
+        </error>
+        <error id="shadowFunction" severity="style" msg="Local variable &apos;outlier_variance&apos; shadows outer function" verbose="Local variable &apos;outlier_variance&apos; shadows outer function" cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="7843" column="24" info="Shadow variable"/>
+            <location file="../weather-app/Tests/catch.hpp" line="7070" column="20" info="Shadowed declaration"/>
+            <symbol>outlier_variance</symbol>
+        </error>
+        <error id="passedByValue" severity="performance" msg="Function parameter &apos;env&apos; should be passed by const reference." verbose="Parameter &apos;env&apos; is passed by value. It could be passed as a const reference which is usually faster and recommended in C++." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="6911" column="105" info="Function parameter &apos;env&apos; should be passed by const reference."/>
+            <symbol>env</symbol>
+        </error>
+        <error id="passedByValue" severity="performance" msg="Function parameter &apos;env&apos; should be passed by const reference." verbose="Parameter &apos;env&apos; is passed by value. It could be passed as a const reference which is usually faster and recommended in C++." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="7300" column="111" info="Function parameter &apos;env&apos; should be passed by const reference."/>
+            <symbol>env</symbol>
+        </error>
+        <error id="passedByValue" severity="performance" msg="Function parameter &apos;mean&apos; should be passed by const reference." verbose="Parameter &apos;mean&apos; is passed by value. It could be passed as a const reference which is usually faster and recommended in C++." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="7779" column="54" info="Function parameter &apos;mean&apos; should be passed by const reference."/>
+            <symbol>mean</symbol>
+        </error>
+        <error id="passedByValue" severity="performance" msg="Function parameter &apos;stddev&apos; should be passed by const reference." verbose="Parameter &apos;stddev&apos; is passed by value. It could be passed as a const reference which is usually faster and recommended in C++." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="7779" column="77" info="Function parameter &apos;stddev&apos; should be passed by const reference."/>
+            <symbol>stddev</symbol>
+        </error>
+        <error id="functionStatic" severity="style" msg="The member function &apos;Catch::FatalConditionHandler::engage_platform&apos; can be static." verbose="The member function &apos;Catch::FatalConditionHandler::engage_platform&apos; can be static." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="10836" column="33"/>
+            <location file="../weather-app/Tests/catch.hpp" line="8010" column="14"/>
+            <symbol>Catch::FatalConditionHandler::engage_platform</symbol>
+        </error>
+        <error id="functionStatic" severity="style" msg="The member function &apos;Catch::FatalConditionHandler::disengage_platform&apos; can be static." verbose="The member function &apos;Catch::FatalConditionHandler::disengage_platform&apos; can be static." cwe="398" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="10844" column="33"/>
+            <location file="../weather-app/Tests/catch.hpp" line="8011" column="14"/>
+            <symbol>Catch::FatalConditionHandler::disengage_platform</symbol>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="../weather-app/Tests/main.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="16102" column="5"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;BasicWidget.h&quot; not found." verbose="Include file: &quot;BasicWidget.h&quot; not found.">
+            <location file="../weather-app/Tests/test_BasicWidget.cpp" line="3" column="2"/>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Option::storage&apos; is not initialized in the constructor." verbose="Member variable &apos;Option::storage&apos; is not initialized in the constructor. Member variables of native types, pointers, or references are left uninitialized when the class is instantiated. That may cause bugs or undefined behavior." cwe="398" file0="../weather-app/Tests/test_BasicWidget.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="4404" column="9"/>
+            <symbol>Option::storage</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Option::storage&apos; is not initialized in the constructor." verbose="Member variable &apos;Option::storage&apos; is not initialized in the constructor. Member variables of native types, pointers, or references are left uninitialized when the class is instantiated. That may cause bugs or undefined behavior." cwe="398" file0="../weather-app/Tests/test_BasicWidget.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="4405" column="9"/>
+            <symbol>Option::storage</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Option::storage&apos; is not initialized in the copy constructor." verbose="Member variable &apos;Option::storage&apos; is not initialized in the copy constructor. Member variables of native types, pointers, or references are left uninitialized when the class is instantiated. That may cause bugs or undefined behavior." cwe="398" file0="../weather-app/Tests/test_BasicWidget.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="4408" column="9"/>
+            <symbol>Option::storage</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;Option&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;Option&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="../weather-app/Tests/test_BasicWidget.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="4405" column="9"/>
+            <symbol>Option</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;basicWidget&apos; can be declared as pointer to const" verbose="Variable &apos;basicWidget&apos; can be declared as pointer to const" cwe="398" file0="../weather-app/Tests/test_BasicWidget.cpp">
+            <location file="../weather-app/Tests/test_BasicWidget.cpp" line="12" column="22" info="Variable &apos;basicWidget&apos; can be declared as pointer to const"/>
+            <symbol>basicWidget</symbol>
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="../weather-app/Tests/test_BasicWidget.cpp">
+            <location file="../weather-app/Tests/test_BasicWidget.cpp" line="0" column="0"/>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Option &lt; TestRunInfo &gt;::storage&apos; is not initialized in the constructor." verbose="Member variable &apos;Option &lt; TestRunInfo &gt;::storage&apos; is not initialized in the constructor. Member variables of native types, pointers, or references are left uninitialized when the class is instantiated. That may cause bugs or undefined behavior." cwe="398" file0="../weather-app/Tests/test_BasicWidget.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="4404" column="9"/>
+            <symbol>Option &lt; TestRunInfo &gt;::storage</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Option &lt; TestRunInfo &gt;::storage&apos; is not initialized in the constructor." verbose="Member variable &apos;Option &lt; TestRunInfo &gt;::storage&apos; is not initialized in the constructor. Member variables of native types, pointers, or references are left uninitialized when the class is instantiated. That may cause bugs or undefined behavior." cwe="398" file0="../weather-app/Tests/test_BasicWidget.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="4405" column="9"/>
+            <symbol>Option &lt; TestRunInfo &gt;::storage</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Option &lt; TestRunInfo &gt;::storage&apos; is not initialized in the copy constructor." verbose="Member variable &apos;Option &lt; TestRunInfo &gt;::storage&apos; is not initialized in the copy constructor. Member variables of native types, pointers, or references are left uninitialized when the class is instantiated. That may cause bugs or undefined behavior." cwe="398" file0="../weather-app/Tests/test_BasicWidget.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="4408" column="9"/>
+            <symbol>Option &lt; TestRunInfo &gt;::storage</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Option &lt; GroupInfo &gt;::storage&apos; is not initialized in the constructor." verbose="Member variable &apos;Option &lt; GroupInfo &gt;::storage&apos; is not initialized in the constructor. Member variables of native types, pointers, or references are left uninitialized when the class is instantiated. That may cause bugs or undefined behavior." cwe="398" file0="../weather-app/Tests/test_BasicWidget.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="4404" column="9"/>
+            <symbol>Option &lt; GroupInfo &gt;::storage</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Option &lt; GroupInfo &gt;::storage&apos; is not initialized in the constructor." verbose="Member variable &apos;Option &lt; GroupInfo &gt;::storage&apos; is not initialized in the constructor. Member variables of native types, pointers, or references are left uninitialized when the class is instantiated. That may cause bugs or undefined behavior." cwe="398" file0="../weather-app/Tests/test_BasicWidget.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="4405" column="9"/>
+            <symbol>Option &lt; GroupInfo &gt;::storage</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Option &lt; GroupInfo &gt;::storage&apos; is not initialized in the copy constructor." verbose="Member variable &apos;Option &lt; GroupInfo &gt;::storage&apos; is not initialized in the copy constructor. Member variables of native types, pointers, or references are left uninitialized when the class is instantiated. That may cause bugs or undefined behavior." cwe="398" file0="../weather-app/Tests/test_BasicWidget.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="4408" column="9"/>
+            <symbol>Option &lt; GroupInfo &gt;::storage</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Option &lt; TestCaseInfo &gt;::storage&apos; is not initialized in the constructor." verbose="Member variable &apos;Option &lt; TestCaseInfo &gt;::storage&apos; is not initialized in the constructor. Member variables of native types, pointers, or references are left uninitialized when the class is instantiated. That may cause bugs or undefined behavior." cwe="398" file0="../weather-app/Tests/test_BasicWidget.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="4404" column="9"/>
+            <symbol>Option &lt; TestCaseInfo &gt;::storage</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Option &lt; TestCaseInfo &gt;::storage&apos; is not initialized in the constructor." verbose="Member variable &apos;Option &lt; TestCaseInfo &gt;::storage&apos; is not initialized in the constructor. Member variables of native types, pointers, or references are left uninitialized when the class is instantiated. That may cause bugs or undefined behavior." cwe="398" file0="../weather-app/Tests/test_BasicWidget.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="4405" column="9"/>
+            <symbol>Option &lt; TestCaseInfo &gt;::storage</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Option &lt; TestCaseInfo &gt;::storage&apos; is not initialized in the copy constructor." verbose="Member variable &apos;Option &lt; TestCaseInfo &gt;::storage&apos; is not initialized in the copy constructor. Member variables of native types, pointers, or references are left uninitialized when the class is instantiated. That may cause bugs or undefined behavior." cwe="398" file0="../weather-app/Tests/test_BasicWidget.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="4408" column="9"/>
+            <symbol>Option &lt; TestCaseInfo &gt;::storage</symbol>
+        </error>
+        <error id="duplInheritedMember" severity="warning" msg="The struct &apos;LazyStat &lt; TestRunInfo &gt;&apos; defines member function with name &apos;operator=&apos; also defined in its parent class &apos;Option &lt; TestRunInfo &gt;&apos;." verbose="The struct &apos;LazyStat &lt; TestRunInfo &gt;&apos; defines member function with name &apos;operator=&apos; also defined in its parent class &apos;Option &lt; TestRunInfo &gt;&apos;." cwe="398" file0="../weather-app/Tests/test_BasicWidget.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="5494" column="19" info="Derived function &apos;LazyStat &lt; TestRunInfo &gt;::operator=&apos;"/>
+            <location file="../weather-app/Tests/catch.hpp" line="4424" column="17" info="Parent function &apos;Option &lt; TestRunInfo &gt;::operator=&apos;"/>
+            <symbol>LazyStat &lt; TestRunInfo &gt;</symbol>
+            <symbol>operator=</symbol>
+            <symbol>Option &lt; TestRunInfo &gt;</symbol>
+        </error>
+        <error id="duplInheritedMember" severity="warning" msg="The struct &apos;LazyStat &lt; TestRunInfo &gt;&apos; defines member function with name &apos;reset&apos; also defined in its parent class &apos;Option &lt; TestRunInfo &gt;&apos;." verbose="The struct &apos;LazyStat &lt; TestRunInfo &gt;&apos; defines member function with name &apos;reset&apos; also defined in its parent class &apos;Option &lt; TestRunInfo &gt;&apos;." cwe="398" file0="../weather-app/Tests/test_BasicWidget.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="5499" column="14" info="Derived function &apos;LazyStat &lt; TestRunInfo &gt;::reset&apos;"/>
+            <location file="../weather-app/Tests/catch.hpp" line="4430" column="14" info="Parent function &apos;Option &lt; TestRunInfo &gt;::reset&apos;"/>
+            <symbol>LazyStat &lt; TestRunInfo &gt;</symbol>
+            <symbol>reset</symbol>
+            <symbol>Option &lt; TestRunInfo &gt;</symbol>
+        </error>
+        <error id="duplInheritedMember" severity="warning" msg="The struct &apos;LazyStat &lt; GroupInfo &gt;&apos; defines member function with name &apos;operator=&apos; also defined in its parent class &apos;Option &lt; GroupInfo &gt;&apos;." verbose="The struct &apos;LazyStat &lt; GroupInfo &gt;&apos; defines member function with name &apos;operator=&apos; also defined in its parent class &apos;Option &lt; GroupInfo &gt;&apos;." cwe="398" file0="../weather-app/Tests/test_BasicWidget.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="5494" column="19" info="Derived function &apos;LazyStat &lt; GroupInfo &gt;::operator=&apos;"/>
+            <location file="../weather-app/Tests/catch.hpp" line="4424" column="17" info="Parent function &apos;Option &lt; GroupInfo &gt;::operator=&apos;"/>
+            <symbol>LazyStat &lt; GroupInfo &gt;</symbol>
+            <symbol>operator=</symbol>
+            <symbol>Option &lt; GroupInfo &gt;</symbol>
+        </error>
+        <error id="duplInheritedMember" severity="warning" msg="The struct &apos;LazyStat &lt; GroupInfo &gt;&apos; defines member function with name &apos;reset&apos; also defined in its parent class &apos;Option &lt; GroupInfo &gt;&apos;." verbose="The struct &apos;LazyStat &lt; GroupInfo &gt;&apos; defines member function with name &apos;reset&apos; also defined in its parent class &apos;Option &lt; GroupInfo &gt;&apos;." cwe="398" file0="../weather-app/Tests/test_BasicWidget.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="5499" column="14" info="Derived function &apos;LazyStat &lt; GroupInfo &gt;::reset&apos;"/>
+            <location file="../weather-app/Tests/catch.hpp" line="4430" column="14" info="Parent function &apos;Option &lt; GroupInfo &gt;::reset&apos;"/>
+            <symbol>LazyStat &lt; GroupInfo &gt;</symbol>
+            <symbol>reset</symbol>
+            <symbol>Option &lt; GroupInfo &gt;</symbol>
+        </error>
+        <error id="duplInheritedMember" severity="warning" msg="The struct &apos;LazyStat &lt; TestCaseInfo &gt;&apos; defines member function with name &apos;operator=&apos; also defined in its parent class &apos;Option &lt; TestCaseInfo &gt;&apos;." verbose="The struct &apos;LazyStat &lt; TestCaseInfo &gt;&apos; defines member function with name &apos;operator=&apos; also defined in its parent class &apos;Option &lt; TestCaseInfo &gt;&apos;." cwe="398" file0="../weather-app/Tests/test_BasicWidget.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="5494" column="19" info="Derived function &apos;LazyStat &lt; TestCaseInfo &gt;::operator=&apos;"/>
+            <location file="../weather-app/Tests/catch.hpp" line="4424" column="17" info="Parent function &apos;Option &lt; TestCaseInfo &gt;::operator=&apos;"/>
+            <symbol>LazyStat &lt; TestCaseInfo &gt;</symbol>
+            <symbol>operator=</symbol>
+            <symbol>Option &lt; TestCaseInfo &gt;</symbol>
+        </error>
+        <error id="duplInheritedMember" severity="warning" msg="The struct &apos;LazyStat &lt; TestCaseInfo &gt;&apos; defines member function with name &apos;reset&apos; also defined in its parent class &apos;Option &lt; TestCaseInfo &gt;&apos;." verbose="The struct &apos;LazyStat &lt; TestCaseInfo &gt;&apos; defines member function with name &apos;reset&apos; also defined in its parent class &apos;Option &lt; TestCaseInfo &gt;&apos;." cwe="398" file0="../weather-app/Tests/test_BasicWidget.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="5499" column="14" info="Derived function &apos;LazyStat &lt; TestCaseInfo &gt;::reset&apos;"/>
+            <location file="../weather-app/Tests/catch.hpp" line="4430" column="14" info="Parent function &apos;Option &lt; TestCaseInfo &gt;::reset&apos;"/>
+            <symbol>LazyStat &lt; TestCaseInfo &gt;</symbol>
+            <symbol>reset</symbol>
+            <symbol>Option &lt; TestCaseInfo &gt;</symbol>
+        </error>
+        <error id="duplInheritedMember" severity="warning" msg="The struct &apos;TestEventListenerBase&apos; defines member function with name &apos;getSupportedVerbosities&apos; also defined in its parent struct &apos;StreamingReporterBase &lt; TestEventListenerBase &gt;&apos;." verbose="The struct &apos;TestEventListenerBase&apos; defines member function with name &apos;getSupportedVerbosities&apos; also defined in its parent struct &apos;StreamingReporterBase &lt; TestEventListenerBase &gt;&apos;." cwe="398" file0="../weather-app/Tests/test_BasicWidget.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="5970" column="36" info="Derived function &apos;TestEventListenerBase::getSupportedVerbosities&apos;"/>
+            <location file="../weather-app/Tests/catch.hpp" line="5744" column="36" info="Parent function &apos;StreamingReporterBase &lt; TestEventListenerBase &gt;::getSupportedVerbosities&apos;"/>
+            <symbol>TestEventListenerBase</symbol>
+            <symbol>getSupportedVerbosities</symbol>
+            <symbol>StreamingReporterBase &lt; TestEventListenerBase &gt;</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;Option &lt; TestRunInfo &gt;&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;Option &lt; TestRunInfo &gt;&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="../weather-app/Tests/test_BasicWidget.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="4405" column="9"/>
+            <symbol>Option &lt; TestRunInfo &gt;</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;Option &lt; GroupInfo &gt;&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;Option &lt; GroupInfo &gt;&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="../weather-app/Tests/test_BasicWidget.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="4405" column="9"/>
+            <symbol>Option &lt; GroupInfo &gt;</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;Option &lt; TestCaseInfo &gt;&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;Option &lt; TestCaseInfo &gt;&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="../weather-app/Tests/test_BasicWidget.cpp">
+            <location file="../weather-app/Tests/catch.hpp" line="4405" column="9"/>
+            <symbol>Option &lt; TestCaseInfo &gt;</symbol>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="../weather-app/Tests/test_BasicWidget.cpp">
+            <location file="../weather-app/Tests/test_BasicWidget.cpp" line="5" column="1"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;CustomCompleter.h&quot; not found." verbose="Include file: &quot;CustomCompleter.h&quot; not found.">
+            <location file="../weather-app/Tests/test_CustomCompleter.cpp" line="5" column="2"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CustomCompleterTestHelper&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CustomCompleterTestHelper&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="../weather-app/Tests/test_CustomCompleter.cpp">
+            <location file="../weather-app/Tests/test_CustomCompleter.cpp" line="10" column="5"/>
+            <symbol>CustomCompleterTestHelper</symbol>
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="../weather-app/Tests/test_CustomCompleter.cpp">
+            <location file="../weather-app/Tests/test_CustomCompleter.cpp" line="0" column="0"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="../weather-app/Tests/test_CustomCompleter.cpp">
+            <location file="../weather-app/Tests/test_CustomCompleter.cpp" line="14" column="1"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;GeoLocationData.h&quot; not found." verbose="Include file: &quot;GeoLocationData.h&quot; not found.">
+            <location file="../weather-app/Tests/test_DetailedWeatherAPI.cpp" line="8" column="2"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;DetailedWeatherAPI.h&quot; not found." verbose="Include file: &quot;DetailedWeatherAPI.h&quot; not found.">
+            <location file="../weather-app/Tests/test_DetailedWeatherAPI.cpp" line="9" column="2"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;DetailedWeatherData.h&quot; not found." verbose="Include file: &quot;DetailedWeatherData.h&quot; not found.">
+            <location file="../weather-app/Tests/test_DetailedWeatherAPI.cpp" line="10" column="2"/>
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="../weather-app/Tests/test_DetailedWeatherAPI.cpp">
+            <location file="../weather-app/Tests/test_DetailedWeatherAPI.cpp" line="0" column="0"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="../weather-app/Tests/test_DetailedWeatherAPI.cpp">
+            <location file="../weather-app/Tests/test_DetailedWeatherAPI.cpp" line="12" column="1"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;DetailedWeatherData.h&quot; not found." verbose="Include file: &quot;DetailedWeatherData.h&quot; not found.">
+            <location file="../weather-app/Tests/test_DetailedWeatherData.cpp" line="2" column="2"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;GeoLocationData.h&quot; not found." verbose="Include file: &quot;GeoLocationData.h&quot; not found.">
+            <location file="../weather-app/Tests/test_DetailedWeatherData.cpp" line="3" column="2"/>
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="../weather-app/Tests/test_DetailedWeatherData.cpp">
+            <location file="../weather-app/Tests/test_DetailedWeatherData.cpp" line="0" column="0"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="../weather-app/Tests/test_DetailedWeatherData.cpp">
+            <location file="../weather-app/Tests/test_DetailedWeatherData.cpp" line="5" column="1"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;MainWindow.h&quot; not found." verbose="Include file: &quot;MainWindow.h&quot; not found.">
+            <location file="../weather-app/Tests/test_DetailedWeatherPage.cpp" line="8" column="2"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;WeatherData.h&quot; not found." verbose="Include file: &quot;WeatherData.h&quot; not found.">
+            <location file="../weather-app/Tests/test_DetailedWeatherPage.cpp" line="9" column="2"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;DetailedWeatherPage.h&quot; not found." verbose="Include file: &quot;DetailedWeatherPage.h&quot; not found.">
+            <location file="../weather-app/Tests/test_DetailedWeatherPage.cpp" line="10" column="2"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;DetailedWeatherAPI.h&quot; not found." verbose="Include file: &quot;DetailedWeatherAPI.h&quot; not found.">
+            <location file="../weather-app/Tests/test_DetailedWeatherPage.cpp" line="11" column="2"/>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;page&apos; can be declared as pointer to const" verbose="Variable &apos;page&apos; can be declared as pointer to const" cwe="398" file0="../weather-app/Tests/test_DetailedWeatherPage.cpp">
+            <location file="../weather-app/Tests/test_DetailedWeatherPage.cpp" line="20" column="30" info="Variable &apos;page&apos; can be declared as pointer to const"/>
+            <symbol>page</symbol>
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="../weather-app/Tests/test_DetailedWeatherPage.cpp">
+            <location file="../weather-app/Tests/test_DetailedWeatherPage.cpp" line="0" column="0"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="../weather-app/Tests/test_DetailedWeatherPage.cpp">
+            <location file="../weather-app/Tests/test_DetailedWeatherPage.cpp" line="13" column="1"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;ErrorWidget.h&quot; not found." verbose="Include file: &quot;ErrorWidget.h&quot; not found.">
+            <location file="../weather-app/Tests/test_ErrorWiget.cpp" line="3" column="2"/>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;errorWidget&apos; can be declared as pointer to const" verbose="Variable &apos;errorWidget&apos; can be declared as pointer to const" cwe="398" file0="../weather-app/Tests/test_ErrorWiget.cpp">
+            <location file="../weather-app/Tests/test_ErrorWiget.cpp" line="12" column="22" info="Variable &apos;errorWidget&apos; can be declared as pointer to const"/>
+            <symbol>errorWidget</symbol>
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="../weather-app/Tests/test_ErrorWiget.cpp">
+            <location file="../weather-app/Tests/test_ErrorWiget.cpp" line="0" column="0"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="../weather-app/Tests/test_ErrorWiget.cpp">
+            <location file="../weather-app/Tests/test_ErrorWiget.cpp" line="5" column="1"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;GeoLocationData.h&quot; not found." verbose="Include file: &quot;GeoLocationData.h&quot; not found.">
+            <location file="../weather-app/Tests/test_GeoLocationData.cpp" line="2" column="2"/>
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="../weather-app/Tests/test_GeoLocationData.cpp">
+            <location file="../weather-app/Tests/test_GeoLocationData.cpp" line="0" column="0"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="../weather-app/Tests/test_GeoLocationData.cpp">
+            <location file="../weather-app/Tests/test_GeoLocationData.cpp" line="4" column="1"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;HomePage.h&quot; not found." verbose="Include file: &quot;HomePage.h&quot; not found.">
+            <location file="../weather-app/Tests/test_HomePage.cpp" line="3" column="2"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;MainWindow.h&quot; not found." verbose="Include file: &quot;MainWindow.h&quot; not found.">
+            <location file="../weather-app/Tests/test_HomePage.cpp" line="4" column="2"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;qstackedwidget.h&quot; not found." verbose="Include file: &quot;qstackedwidget.h&quot; not found.">
+            <location file="../weather-app/Tests/test_HomePage.cpp" line="5" column="2"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;qtimezone.h&quot; not found." verbose="Include file: &quot;qtimezone.h&quot; not found.">
+            <location file="../weather-app/Tests/test_HomePage.cpp" line="6" column="2"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;WeatherData.h&quot; not found." verbose="Include file: &quot;WeatherData.h&quot; not found.">
+            <location file="../weather-app/Tests/test_HomePage.cpp" line="7" column="2"/>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;homePage&apos; can be declared as pointer to const" verbose="Variable &apos;homePage&apos; can be declared as pointer to const" cwe="398" file0="../weather-app/Tests/test_HomePage.cpp">
+            <location file="../weather-app/Tests/test_HomePage.cpp" line="17" column="19" info="Variable &apos;homePage&apos; can be declared as pointer to const"/>
+            <symbol>homePage</symbol>
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="../weather-app/Tests/test_HomePage.cpp">
+            <location file="../weather-app/Tests/test_HomePage.cpp" line="0" column="0"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="../weather-app/Tests/test_HomePage.cpp">
+            <location file="../weather-app/Tests/test_HomePage.cpp" line="9" column="1"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;MainWindow.h&quot; not found." verbose="Include file: &quot;MainWindow.h&quot; not found.">
+            <location file="../weather-app/Tests/test_MainWindow.cpp" line="6" column="2"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;HomePage.h&quot; not found." verbose="Include file: &quot;HomePage.h&quot; not found.">
+            <location file="../weather-app/Tests/test_MainWindow.cpp" line="7" column="2"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;DetailedWeatherPage.h&quot; not found." verbose="Include file: &quot;DetailedWeatherPage.h&quot; not found.">
+            <location file="../weather-app/Tests/test_MainWindow.cpp" line="8" column="2"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;GeoLocationData.h&quot; not found." verbose="Include file: &quot;GeoLocationData.h&quot; not found.">
+            <location file="../weather-app/Tests/test_MainWindow.cpp" line="9" column="2"/>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;currentPage&apos; can be declared as pointer to const" verbose="Variable &apos;currentPage&apos; can be declared as pointer to const" cwe="398" file0="../weather-app/Tests/test_MainWindow.cpp">
+            <location file="../weather-app/Tests/test_MainWindow.cpp" line="18" column="14" info="Variable &apos;currentPage&apos; can be declared as pointer to const"/>
+            <symbol>currentPage</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;currentPage&apos; can be declared as pointer to const" verbose="Variable &apos;currentPage&apos; can be declared as pointer to const" cwe="398" file0="../weather-app/Tests/test_MainWindow.cpp">
+            <location file="../weather-app/Tests/test_MainWindow.cpp" line="34" column="14" info="Variable &apos;currentPage&apos; can be declared as pointer to const"/>
+            <symbol>currentPage</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;currentPage&apos; can be declared as pointer to const" verbose="Variable &apos;currentPage&apos; can be declared as pointer to const" cwe="398" file0="../weather-app/Tests/test_MainWindow.cpp">
+            <location file="../weather-app/Tests/test_MainWindow.cpp" line="49" column="14" info="Variable &apos;currentPage&apos; can be declared as pointer to const"/>
+            <symbol>currentPage</symbol>
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="../weather-app/Tests/test_MainWindow.cpp">
+            <location file="../weather-app/Tests/test_MainWindow.cpp" line="0" column="0"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="../weather-app/Tests/test_MainWindow.cpp">
+            <location file="../weather-app/Tests/test_MainWindow.cpp" line="11" column="1"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;Parser.h&quot; not found." verbose="Include file: &quot;Parser.h&quot; not found.">
+            <location file="../weather-app/Tests/test_Parser.cpp" line="9" column="2"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;GeoLocationData.h&quot; not found." verbose="Include file: &quot;GeoLocationData.h&quot; not found.">
+            <location file="../weather-app/Tests/test_Parser.cpp" line="10" column="2"/>
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="../weather-app/Tests/test_Parser.cpp">
+            <location file="../weather-app/Tests/test_Parser.cpp" line="0" column="0"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="../weather-app/Tests/test_Parser.cpp">
+            <location file="../weather-app/Tests/test_Parser.cpp" line="12" column="1"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;Serializer.h&quot; not found." verbose="Include file: &quot;Serializer.h&quot; not found.">
+            <location file="../weather-app/Tests/test_Serializer.cpp" line="16" column="2"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;GeoLocationData.h&quot; not found." verbose="Include file: &quot;GeoLocationData.h&quot; not found.">
+            <location file="../weather-app/Tests/test_Serializer.cpp" line="17" column="2"/>
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="../weather-app/Tests/test_Serializer.cpp">
+            <location file="../weather-app/Tests/test_Serializer.cpp" line="0" column="0"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="../weather-app/Tests/test_Serializer.cpp">
+            <location file="../weather-app/Tests/test_Serializer.cpp" line="19" column="1"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;GeoLocationData.h&quot; not found." verbose="Include file: &quot;GeoLocationData.h&quot; not found.">
+            <location file="../weather-app/Tests/test_Settings.cpp" line="6" column="2"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;Settings.h&quot; not found." verbose="Include file: &quot;Settings.h&quot; not found.">
+            <location file="../weather-app/Tests/test_Settings.cpp" line="7" column="2"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;SettingsDialog.h&quot; not found." verbose="Include file: &quot;SettingsDialog.h&quot; not found.">
+            <location file="../weather-app/Tests/test_Settings.cpp" line="8" column="2"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;HomePage.h&quot; not found." verbose="Include file: &quot;HomePage.h&quot; not found.">
+            <location file="../weather-app/Tests/test_Settings.cpp" line="9" column="2"/>
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="../weather-app/Tests/test_Settings.cpp">
+            <location file="../weather-app/Tests/test_Settings.cpp" line="0" column="0"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="../weather-app/Tests/test_Settings.cpp">
+            <location file="../weather-app/Tests/test_Settings.cpp" line="11" column="1"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;UserLocation.h&quot; not found." verbose="Include file: &quot;UserLocation.h&quot; not found.">
+            <location file="../weather-app/Tests/test_UserLocation.cpp" line="7" column="2"/>
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="../weather-app/Tests/test_UserLocation.cpp">
+            <location file="../weather-app/Tests/test_UserLocation.cpp" line="0" column="0"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="../weather-app/Tests/test_UserLocation.cpp">
+            <location file="../weather-app/Tests/test_UserLocation.cpp" line="9" column="1"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;GeoLocationData.h&quot; not found." verbose="Include file: &quot;GeoLocationData.h&quot; not found.">
+            <location file="../weather-app/Tests/test_WeatherAPI.cpp" line="8" column="2"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;WeatherAPI.h&quot; not found." verbose="Include file: &quot;WeatherAPI.h&quot; not found.">
+            <location file="../weather-app/Tests/test_WeatherAPI.cpp" line="9" column="2"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;WeatherData.h&quot; not found." verbose="Include file: &quot;WeatherData.h&quot; not found.">
+            <location file="../weather-app/Tests/test_WeatherAPI.cpp" line="10" column="2"/>
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="../weather-app/Tests/test_WeatherAPI.cpp">
+            <location file="../weather-app/Tests/test_WeatherAPI.cpp" line="0" column="0"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="../weather-app/Tests/test_WeatherAPI.cpp">
+            <location file="../weather-app/Tests/test_WeatherAPI.cpp" line="12" column="1"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;WeatherData.h&quot; not found." verbose="Include file: &quot;WeatherData.h&quot; not found.">
+            <location file="../weather-app/Tests/test_WeatherData.cpp" line="3" column="2"/>
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="../weather-app/Tests/test_WeatherData.cpp">
+            <location file="../weather-app/Tests/test_WeatherData.cpp" line="0" column="0"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="../weather-app/Tests/test_WeatherData.cpp">
+            <location file="../weather-app/Tests/test_WeatherData.cpp" line="5" column="1"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;GeoLocationData.h&quot; not found." verbose="Include file: &quot;GeoLocationData.h&quot; not found.">
+            <location file="../weather-app/Tests/test_WeatherWidget.cpp" line="1" column="2"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;WeatherWidget.h&quot; not found." verbose="Include file: &quot;WeatherWidget.h&quot; not found.">
+            <location file="../weather-app/Tests/test_WeatherWidget.cpp" line="4" column="2"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;qgeocoordinate.h&quot; not found." verbose="Include file: &quot;qgeocoordinate.h&quot; not found.">
+            <location file="../weather-app/Tests/test_WeatherWidget.cpp" line="5" column="2"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;qtimezone.h&quot; not found." verbose="Include file: &quot;qtimezone.h&quot; not found.">
+            <location file="../weather-app/Tests/test_WeatherWidget.cpp" line="6" column="2"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;WeatherData.h&quot; not found." verbose="Include file: &quot;WeatherData.h&quot; not found.">
+            <location file="../weather-app/Tests/test_WeatherWidget.cpp" line="7" column="2"/>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;weatherWidget&apos; can be declared as pointer to const" verbose="Variable &apos;weatherWidget&apos; can be declared as pointer to const" cwe="398" file0="../weather-app/Tests/test_WeatherWidget.cpp">
+            <location file="../weather-app/Tests/test_WeatherWidget.cpp" line="21" column="24" info="Variable &apos;weatherWidget&apos; can be declared as pointer to const"/>
+            <symbol>weatherWidget</symbol>
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="../weather-app/Tests/test_WeatherWidget.cpp">
+            <location file="../weather-app/Tests/test_WeatherWidget.cpp" line="0" column="0"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="../weather-app/Tests/test_WeatherWidget.cpp">
+            <location file="../weather-app/Tests/test_WeatherWidget.cpp" line="9" column="1"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;parseDetailedWeatherData&apos; is never used." verbose="The function &apos;parseDetailedWeatherData&apos; is never used." cwe="561">
+            <location file="../weather-app/Source/Api/Parser.cpp" line="58" column="45"/>
+            <symbol>parseDetailedWeatherData</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;setRenamedPlace&apos; is never used." verbose="The function &apos;setRenamedPlace&apos; is never used." cwe="561">
+            <location file="../weather-app/Source/Data/GeoLocationData.h" line="34" column="17"/>
+            <symbol>setRenamedPlace</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;drawCoordinateDot&apos; is never used." verbose="The function &apos;drawCoordinateDot&apos; is never used." cwe="561">
+            <location file="../weather-app/Source/Utils/GraphDialog.cpp" line="65" column="17"/>
+            <symbol>drawCoordinateDot</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;mapTemperatureToY&apos; is never used." verbose="The function &apos;mapTemperatureToY&apos; is never used." cwe="561">
+            <location file="../weather-app/Source/Utils/GraphDialog.cpp" line="231" column="21"/>
+            <symbol>mapTemperatureToY</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;setHighlight&apos; is never used." verbose="The function &apos;setHighlight&apos; is never used." cwe="561">
+            <location file="../weather-app/Source/Widgets/WeatherWidget.cpp" line="120" column="21"/>
+            <symbol>setHighlight</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;resetHighlight&apos; is never used." verbose="The function &apos;resetHighlight&apos; is never used." cwe="561">
+            <location file="../weather-app/Source/Widgets/WeatherWidget.cpp" line="125" column="21"/>
+            <symbol>resetHighlight</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;Contains&apos; is never used." verbose="The function &apos;Contains&apos; is never used." cwe="561">
+            <location file="../weather-app/Tests/catch.hpp" line="3737" column="55"/>
+            <symbol>Contains</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;VectorContains&apos; is never used." verbose="The function &apos;VectorContains&apos; is never used." cwe="561">
+            <location file="../weather-app/Tests/catch.hpp" line="3742" column="46"/>
+            <symbol>VectorContains</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;UnorderedEquals&apos; is never used." verbose="The function &apos;UnorderedEquals&apos; is never used." cwe="561">
+            <location file="../weather-app/Tests/catch.hpp" line="3757" column="62"/>
+            <symbol>UnorderedEquals</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;makeMatchExpr&apos; is never used." verbose="The function &apos;makeMatchExpr&apos; is never used." cwe="561">
+            <location file="../weather-app/Tests/catch.hpp" line="3795" column="10"/>
+            <symbol>makeMatchExpr</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;table&apos; is never used." verbose="The function &apos;table&apos; is never used." cwe="561">
+            <location file="../weather-app/Tests/catch.hpp" line="4052" column="41"/>
+            <symbol>table</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;generate&apos; is never used." verbose="The function &apos;generate&apos; is never used." cwe="561">
+            <location file="../weather-app/Tests/catch.hpp" line="4083" column="10"/>
+            <symbol>generate</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;take&apos; is never used." verbose="The function &apos;take&apos; is never used." cwe="561">
+            <location file="../weather-app/Tests/catch.hpp" line="4149" column="25"/>
+            <symbol>take</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;filter&apos; is never used." verbose="The function &apos;filter&apos; is never used." cwe="561">
+            <location file="../weather-app/Tests/catch.hpp" line="4188" column="25"/>
+            <symbol>filter</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;chunk&apos; is never used." verbose="The function &apos;chunk&apos; is never used." cwe="561">
+            <location file="../weather-app/Tests/catch.hpp" line="4326" column="38"/>
+            <symbol>chunk</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;none&apos; is never used." verbose="The function &apos;none&apos; is never used." cwe="561">
+            <location file="../weather-app/Tests/catch.hpp" line="4446" column="14"/>
+            <symbol>none</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;random&apos; is never used." verbose="The function &apos;random&apos; is never used." cwe="561">
+            <location file="../weather-app/Tests/catch.hpp" line="4644" column="1"/>
+            <symbol>random</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;range&apos; is never used." verbose="The function &apos;range&apos; is never used." cwe="561">
+            <location file="../weather-app/Tests/catch.hpp" line="4693" column="21"/>
+            <symbol>range</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;from_range&apos; is never used." verbose="The function &apos;from_range&apos; is never used." cwe="561">
+            <location file="../weather-app/Tests/catch.hpp" line="4733" column="30"/>
+            <symbol>from_range</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;runs&apos; is never used." verbose="The function &apos;runs&apos; is never used." cwe="561">
+            <location file="../weather-app/Tests/catch.hpp" line="6615" column="17"/>
+            <symbol>runs</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;construct&apos; is never used." verbose="The function &apos;construct&apos; is never used." cwe="561">
+            <location file="../weather-app/Tests/catch.hpp" line="7408" column="22"/>
+            <symbol>construct</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;handleExceptionThrownAsExpected&apos; is never used." verbose="The function &apos;handleExceptionThrownAsExpected&apos; is never used." cwe="561">
+            <location file="../weather-app/Tests/catch.hpp" line="8261" column="28"/>
+            <symbol>handleExceptionThrownAsExpected</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;handleExceptionNotThrownAsExpected&apos; is never used." verbose="The function &apos;handleExceptionNotThrownAsExpected&apos; is never used." cwe="561">
+            <location file="../weather-app/Tests/catch.hpp" line="8264" column="28"/>
+            <symbol>handleExceptionNotThrownAsExpected</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;handleThrowingCallSkipped&apos; is never used." verbose="The function &apos;handleThrowingCallSkipped&apos; is never used." cwe="561">
+            <location file="../weather-app/Tests/catch.hpp" line="8272" column="28"/>
+            <symbol>handleThrowingCallSkipped</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;required&apos; is never used." verbose="The function &apos;required&apos; is never used." cwe="561">
+            <location file="../weather-app/Tests/catch.hpp" line="9274" column="14"/>
+            <symbol>required</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;makeRef&apos; is never used." verbose="The function &apos;makeRef&apos; is never used." cwe="561">
+            <location file="../weather-app/Tests/catch.hpp" line="9298" column="21"/>
+            <symbol>makeRef</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;getFilename&apos; is never used." verbose="The function &apos;getFilename&apos; is never used." cwe="561">
+            <location file="../weather-app/Tests/catch.hpp" line="9971" column="32"/>
+            <symbol>getFilename</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;getProcessName&apos; is never used." verbose="The function &apos;getProcessName&apos; is never used." cwe="561">
+            <location file="../weather-app/Tests/catch.hpp" line="9980" column="25"/>
+            <symbol>getProcessName</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;lookup&apos; is never used." verbose="The function &apos;lookup&apos; is never used." cwe="561">
+            <location file="../weather-app/Tests/catch.hpp" line="10609" column="29"/>
+            <symbol>lookup</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;Message&apos; is never used." verbose="The function &apos;Message&apos; is never used." cwe="561">
+            <location file="../weather-app/Tests/catch.hpp" line="11432" column="36"/>
+            <symbol>Message</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;WithinULP&apos; is never used." verbose="The function &apos;WithinULP&apos; is never used." cwe="561">
+            <location file="../weather-app/Tests/catch.hpp" line="11656" column="29"/>
+            <symbol>WithinULP</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;WithinAbs&apos; is never used." verbose="The function &apos;WithinAbs&apos; is never used." cwe="561">
+            <location file="../weather-app/Tests/catch.hpp" line="11664" column="28"/>
+            <symbol>WithinAbs</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;WithinRel&apos; is never used." verbose="The function &apos;WithinRel&apos; is never used." cwe="561">
+            <location file="../weather-app/Tests/catch.hpp" line="11668" column="28"/>
+            <symbol>WithinRel</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;EndsWith&apos; is never used." verbose="The function &apos;EndsWith&apos; is never used." cwe="561">
+            <location file="../weather-app/Tests/catch.hpp" line="11785" column="32"/>
+            <symbol>EndsWith</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;StartsWith&apos; is never used." verbose="The function &apos;StartsWith&apos; is never used." cwe="561">
+            <location file="../weather-app/Tests/catch.hpp" line="11788" column="34"/>
+            <symbol>StartsWith</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;Matches&apos; is never used." verbose="The function &apos;Matches&apos; is never used." cwe="561">
+            <location file="../weather-app/Tests/catch.hpp" line="11792" column="29"/>
+            <symbol>Matches</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;discard&apos; is never used." verbose="The function &apos;discard&apos; is never used." cwe="561">
+            <location file="../weather-app/Tests/catch.hpp" line="12239" column="23"/>
+            <symbol>discard</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;isJustInfo&apos; is never used." verbose="The function &apos;isJustInfo&apos; is never used." cwe="561">
+            <location file="../weather-app/Tests/catch.hpp" line="12559" column="10"/>
+            <symbol>isJustInfo</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;shouldContinueOnFailure&apos; is never used." verbose="The function &apos;shouldContinueOnFailure&apos; is never used." cwe="561">
+            <location file="../weather-app/Tests/catch.hpp" line="12567" column="10"/>
+            <symbol>shouldContinueOnFailure</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;useConfigData&apos; is never used." verbose="The function &apos;useConfigData&apos; is never used." cwe="561">
+            <location file="../weather-app/Tests/catch.hpp" line="13499" column="19"/>
+            <symbol>useConfigData</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;cli&apos; is never used." verbose="The function &apos;cli&apos; is never used." cwe="561">
+            <location file="../weather-app/Tests/catch.hpp" line="13517" column="35"/>
+            <symbol>cli</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;configData&apos; is never used." verbose="The function &apos;configData&apos; is never used." cwe="561">
+            <location file="../weather-app/Tests/catch.hpp" line="13523" column="26"/>
+            <symbol>configData</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;replaceInPlace&apos; is never used." verbose="The function &apos;replaceInPlace&apos; is never used." cwe="561">
+            <location file="../weather-app/Tests/catch.hpp" line="13853" column="10"/>
+            <symbol>replaceInPlace</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;parseTestSpec&apos; is never used." verbose="The function &apos;parseTestSpec&apos; is never used." cwe="561">
+            <location file="../weather-app/Tests/catch.hpp" line="14921" column="14"/>
+            <symbol>parseTestSpec</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;getEstimatedClockResolution&apos; is never used." verbose="The function &apos;getEstimatedClockResolution&apos; is never used." cwe="561">
+            <location file="../weather-app/Tests/catch.hpp" line="14970" column="10"/>
+            <symbol>getEstimatedClockResolution</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;getElapsedMilliseconds&apos; is never used." verbose="The function &apos;getElapsedMilliseconds&apos; is never used." cwe="561">
+            <location file="../weather-app/Tests/catch.hpp" line="14984" column="17"/>
+            <symbol>getElapsedMilliseconds</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;writeBlankLine&apos; is never used." verbose="The function &apos;writeBlankLine&apos; is never used." cwe="561">
+            <location file="../weather-app/Tests/catch.hpp" line="15722" column="27"/>
+            <symbol>writeBlankLine</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;isMulti&apos; is never used." verbose="The function &apos;isMulti&apos; is never used." cwe="561">
+            <location file="../weather-app/Tests/catch.hpp" line="17225" column="29"/>
+            <symbol>isMulti</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;____C_A_T_C_H____T_E_S_T____3&apos; is never used." verbose="The function &apos;____C_A_T_C_H____T_E_S_T____3&apos; is never used." cwe="561">
+            <location file="../weather-app/Tests/test_BasicWidget.cpp" line="5" column="1"/>
+            <symbol>____C_A_T_C_H____T_E_S_T____3</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;____C_A_T_C_H____T_E_S_T____9&apos; is never used." verbose="The function &apos;____C_A_T_C_H____T_E_S_T____9&apos; is never used." cwe="561">
+            <location file="../weather-app/Tests/test_GeoLocationData.cpp" line="22" column="1"/>
+            <symbol>____C_A_T_C_H____T_E_S_T____9</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;____C_A_T_C_H____T_E_S_T____13&apos; is never used." verbose="The function &apos;____C_A_T_C_H____T_E_S_T____13&apos; is never used." cwe="561">
+            <location file="../weather-app/Tests/test_GeoLocationData.cpp" line="31" column="1"/>
+            <symbol>____C_A_T_C_H____T_E_S_T____13</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;____C_A_T_C_H____T_E_S_T____17&apos; is never used." verbose="The function &apos;____C_A_T_C_H____T_E_S_T____17&apos; is never used." cwe="561">
+            <location file="../weather-app/Tests/test_GeoLocationData.cpp" line="41" column="1"/>
+            <symbol>____C_A_T_C_H____T_E_S_T____17</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;____C_A_T_C_H____T_E_S_T____11&apos; is never used." verbose="The function &apos;____C_A_T_C_H____T_E_S_T____11&apos; is never used." cwe="561">
+            <location file="../weather-app/Tests/test_Parser.cpp" line="53" column="1"/>
+            <symbol>____C_A_T_C_H____T_E_S_T____11</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: There was critical errors (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: There was critical errors (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>
