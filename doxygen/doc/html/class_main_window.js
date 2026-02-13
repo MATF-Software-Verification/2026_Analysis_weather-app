@@ -1,0 +1,27 @@
+var class_main_window =
+[
+    [ "MainWindow", "class_main_window.html#a996c5a2b6f77944776856f08ec30858d", null ],
+    [ "~MainWindow", "class_main_window.html#ae98d00a93bc118200eeef9f9bba1dba7", null ],
+    [ "closeEvent", "class_main_window.html#a05fb9d72c044aa3bb7d187b994704e2f", null ],
+    [ "currentPage", "class_main_window.html#a6a631ac0750b50e8ce22d70c1d965752", null ],
+    [ "deletePageWidgets", "class_main_window.html#a62caa1bf59d8f6668b69f7604fab4f12", null ],
+    [ "detailedDataRequested", "class_main_window.html#a3edd3186c3b53781915ecb4179c66fbd", null ],
+    [ "errorPageShown", "class_main_window.html#a6febcbeebaed04d64cc7a7f6acabff77", null ],
+    [ "getDetailedData", "class_main_window.html#a0e42c89e14aee05b86ee2a66fa241600", null ],
+    [ "getLocationData", "class_main_window.html#aa5e3e214fd9ac3fea048180ca4f15b4a", null ],
+    [ "getSavedLocationsData", "class_main_window.html#a58bb1b73c21d28e900b33c9536e5fdb9", null ],
+    [ "refreshPages", "class_main_window.html#a350d71d4c32fa826fe77e5b87bd82cc4", null ],
+    [ "requestUserLocationData", "class_main_window.html#ad9f83cec81a6d31e94dd6f03d8d4c784", null ],
+    [ "serializeData", "class_main_window.html#a0b1a312c9adfa5a4ca9bfba8072fcf4f", null ],
+    [ "showDetailedWeatherPage", "class_main_window.html#a0dcc2d028ac8be630803b7a1d9df7872", null ],
+    [ "showErrorPage", "class_main_window.html#a66452be793b79da33714f73ae5a46a34", null ],
+    [ "showHomePage", "class_main_window.html#a373372f4e8708f9fb20a486ffe6d716d", null ],
+    [ "detailedWeatherPage", "class_main_window.html#a14c1faa4304d3b42e65f469ca891d2e1", null ],
+    [ "errorPage", "class_main_window.html#a605bcb769754ec2796df64bb20db3d67", null ],
+    [ "homePage", "class_main_window.html#a3d404f50476a19c260d3552803d6f66e", null ],
+    [ "settings", "class_main_window.html#adb25515bfca43c420d5d9a68c58c8eeb", null ],
+    [ "stackedWidget", "class_main_window.html#aa86720a51d3246a6dc316d51488dcb15", null ],
+    [ "ui", "class_main_window.html#a35466a70ed47252a0191168126a352a5", null ],
+    [ "userLocation", "class_main_window.html#a596c26719d777fc2324146ccec714302", null ],
+    [ "weatherApi", "class_main_window.html#a0dc37bfe4f3f98dd2cc831ce37430ad9", null ]
+];

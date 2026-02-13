@@ -1,0 +1,26 @@
+var class_settings_dialog =
+[
+    [ "SettingsDialog", "class_settings_dialog.html#ac5ab03e7361d2d6fe1232ee8ce1f0c26", null ],
+    [ "~SettingsDialog", "class_settings_dialog.html#a747d956ae0b10fde0a8dd0c094298290", null ],
+    [ "changeSettings", "class_settings_dialog.html#ad3f1ad1bba91ff0b3179a9018b6159d4", null ],
+    [ "eventFilter", "class_settings_dialog.html#af91f62560655b67ffaba7b8d450aab04", null ],
+    [ "resetOrder", "class_settings_dialog.html#a52ffb89ba09b124c7e7f8dd17f1a37f6", null ],
+    [ "settingsChanged", "class_settings_dialog.html#a5fa4d3ec9373cddce14b70ee53eb386a", null ],
+    [ "setupUi", "class_settings_dialog.html#a67e6156de5df442b92bb6149ac5df70f", null ],
+    [ "buttonLayout", "class_settings_dialog.html#a64c4fc5e9a322d238b1d41a8d8fc31eb", null ],
+    [ "cancel", "class_settings_dialog.html#a9eb3f5b80ce47976722353c578504644", null ],
+    [ "listWidget", "class_settings_dialog.html#a5e31494ece634c506704b1455d968c6b", null ],
+    [ "locationSwitch", "class_settings_dialog.html#ac0ffec99ff48ab311c17b5b713642b48", null ],
+    [ "mainLayout", "class_settings_dialog.html#a4a634660012a66c7d0454407db7cd56c", null ],
+    [ "orderCan", "class_settings_dialog.html#a48a107286cd3aa977c9aa79fe2a4695a", null ],
+    [ "orderIcon", "class_settings_dialog.html#a44948e78ebd946974efae6f8b6827b66", null ],
+    [ "precipitationUnit", "class_settings_dialog.html#a949fcf45ec37af6bfb425fc0badad05b", null ],
+    [ "save", "class_settings_dialog.html#afc47564ea58ad9f022efc3b49ecb0e38", null ],
+    [ "settings", "class_settings_dialog.html#aa3dd2fb33df71c78902fa958895e2612", null ],
+    [ "temperatureUnit", "class_settings_dialog.html#a927285d262f5081d29665ff90dcb46a5", null ],
+    [ "trashCan", "class_settings_dialog.html#aed10371faf30185f15408ed84417f574", null ],
+    [ "trashIcon", "class_settings_dialog.html#a90f9b8a63a3399d557dd0b3ba75dde9f", null ],
+    [ "trashIconPath", "class_settings_dialog.html#afbfab5c51d178dab95005fc5779fc3b3", null ],
+    [ "widgetOrder", "class_settings_dialog.html#ac07146ded385fe191d0f2c73e7641245", null ],
+    [ "windSpeedUnit", "class_settings_dialog.html#a6514e22b30c439b6027f3ff4553429f9", null ]
+];
