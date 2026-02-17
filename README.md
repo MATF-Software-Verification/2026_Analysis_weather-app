@@ -2,7 +2,7 @@
 
 ## Podaci o autoru i projektu koji je predmet analize
 
-**Autor:** Aleksandra Labović, 1025/24
+**Autor:** Aleksandra Labović, 1025/2024
 
 **Projekat:** Weather App je desktop GUI aplikacija napisana u C++20 uz korišćenje Qt frameworka. Aplikacija prikazuje trenutne vremenske uslove i prognozu za uneti grad, oslanjajući se na OpenCage Geocoding API za geocoding i OpenWeatherMap API za meteorološke podatke. Podržava autocomplete predloge gradova pri pretrazi, prikaz kratkoročne prognoze i podešavanje jedinica merenja.
 

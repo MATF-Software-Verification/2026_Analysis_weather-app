@@ -2,7 +2,7 @@
 
 **Univerzitet u Beogradu, Matematički fakultet**  
 Seminarski rad iz predmeta Verifikacija softvera  
-**Student:** Aleksandra Labović, 1025/24  
+**Student:** Aleksandra Labović, 1025/2024  
 **Februar, 2026**
 
 ---
@@ -57,7 +57,7 @@ U okviru ovog rada primenjena su dva alata za statičku analizu: Clang-Tidy i Cp
 
 ## 2.1 Cppcheck
 
-Cppcheck predstavlja alat za statičku analizu izvornog koda napisanog u programskim jezicima C i C++. Njegova primarna svrha je identifikacija potencijalnih grešaka, nedefinisanog ponašanja i rizičnih konstrukcija u kodu, uz poseban fokus na minimizaciju lažno pozitivnih nalaza.[^1] Za razliku od nekih drugih analizatora, Cppcheck ne zahteva kompajlabilan kod niti prisustvo datoteke `compile_commands.json`, što omogućava efikasnu analizu projekata sa nestandardnim build sistemima.
+Cppcheck predstavlja alat za statičku analizu izvornog koda napisanog u programskim jezicima C i C++. Njegova primarna svrha je identifikacija potencijalnih grešaka, nedefinisanog ponašanja i rizičnih konstrukcija u kodu.
 
 [^1]: Lažno pozitivni rezultati predstavljaju situacije u kojima alat prijavi grešku ili problem, iako stvarna greška ne postoji.
 
